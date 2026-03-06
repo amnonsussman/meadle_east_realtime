@@ -1,0 +1,1296 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Middle East Search Pulse | 10 Days</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@300;400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-deep: #080c14;
+      --bg-panel: #0d1520;
+      --bg-surface: #131d2e;
+      --border: #1c2d44;
+      --accent: #3b82f6;
+      --accent-glow: rgba(59,130,246,0.3);
+      --text: #e2e8f0;
+      --text-dim: #64748b;
+      --text-muted: #475569;
+      --war-red: #ef4444;
+      --war-glow: rgba(239,68,68,0.4);
+      --iran-red: #dc2626;
+      --font: 'Noto Sans Hebrew', 'Segoe UI', sans-serif;
+      --mono: 'JetBrains Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg-deep);
+      color: var(--text);
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ===== HEADER ===== */
+    #header {
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+      z-index: 100;
+    }
+
+    #header h1 {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .header-badges {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .badge {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-family: var(--mono);
+      color: var(--text-dim);
+    }
+
+    .badge.war {
+      border-color: var(--war-red);
+      color: var(--war-red);
+      background: rgba(239,68,68,0.08);
+    }
+
+    /* ===== STORY HEADLINE ===== */
+    #storyBar {
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border);
+      padding: 8px 20px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-height: 38px;
+    }
+
+    #storyHeadline {
+      font-size: 15px;
+      font-weight: 600;
+      transition: opacity 0.4s;
+    }
+
+    #storyHeadline.pre-war { color: var(--text-dim); }
+    #storyHeadline.war { color: var(--war-red); }
+
+    #dayCounter {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    /* ===== CONTROLS ===== */
+    #controls {
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border);
+      padding: 8px 20px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-shrink: 0;
+    }
+
+    .control-group {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .control-label {
+      font-size: 10px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-left: 4px;
+    }
+
+    .btn {
+      background: var(--bg-surface);
+      color: var(--text-dim);
+      border: 1px solid var(--border);
+      padding: 5px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 11px;
+      font-family: var(--font);
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+
+    .btn.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .btn.play-btn {
+      background: #059669;
+      color: white;
+      border-color: #059669;
+      font-weight: 600;
+    }
+
+    .btn.play-btn.playing {
+      background: #d97706;
+      border-color: #d97706;
+    }
+
+    .btn.play-btn:hover {
+      filter: brightness(1.15);
+    }
+
+    /* Axis group buttons */
+    .axis-btn {
+      position: relative;
+      padding-right: 8px;
+    }
+
+    .axis-btn .dot {
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      margin-left: 4px;
+    }
+
+    /* Category filter buttons */
+    .cat-btn .swatch {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 2px;
+      margin-left: 4px;
+    }
+
+    .separator {
+      width: 1px;
+      height: 24px;
+      background: var(--border);
+    }
+
+    /* ===== TIMELINE ===== */
+    #timeline {
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 20px;
+      flex-shrink: 0;
+    }
+
+    .timeline-container {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      position: relative;
+    }
+
+    .tl-day {
+      flex: 1;
+      text-align: center;
+      cursor: pointer;
+      padding: 4px 0;
+      position: relative;
+      transition: all 0.2s;
+    }
+
+    .tl-day:hover { background: rgba(59,130,246,0.05); border-radius: 6px; }
+
+    .tl-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--bg-surface);
+      border: 2px solid var(--border);
+      margin: 0 auto 4px auto;
+      transition: all 0.3s;
+    }
+
+    .tl-day.active .tl-dot {
+      background: var(--accent);
+      border-color: var(--accent);
+      box-shadow: 0 0 12px var(--accent-glow);
+      transform: scale(1.4);
+    }
+
+    .tl-day.war-day .tl-dot {
+      border-color: var(--war-red);
+    }
+
+    .tl-day.war-day.active .tl-dot {
+      background: var(--war-red);
+      border-color: var(--war-red);
+      box-shadow: 0 0 12px var(--war-glow);
+    }
+
+    .tl-day.iran-dead .tl-dot {
+      border-color: var(--iran-red);
+      animation: iranPulse 2s infinite;
+    }
+
+    @keyframes iranPulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(220,38,38,0.5); }
+      50% { box-shadow: 0 0 0 6px rgba(220,38,38,0); }
+    }
+
+    .tl-label {
+      font-size: 10px;
+      color: var(--text-muted);
+      font-family: var(--mono);
+    }
+
+    .tl-day.active .tl-label {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .tl-dayname {
+      font-size: 9px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .tl-war-marker {
+      position: absolute;
+      top: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 8px;
+      color: var(--war-red);
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tl-day.war-day:first-of-type .tl-war-marker,
+    .tl-day.war-start .tl-war-marker {
+      opacity: 1;
+    }
+
+    /* War divider line */
+    .tl-war-divider {
+      width: 2px;
+      height: 40px;
+      background: var(--war-red);
+      opacity: 0.4;
+      flex-shrink: 0;
+    }
+
+    /* ===== MAP ===== */
+    #mapWrap {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+      background: var(--bg-deep);
+    }
+
+    /* ===== STATS PANEL ===== */
+    #statsPanel {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(13,21,32,0.92);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+      z-index: 800;
+      min-width: 200px;
+      font-size: 12px;
+    }
+
+    #statsPanel h3 {
+      font-size: 13px;
+      color: var(--accent);
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 4px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+    }
+
+    .stat-label { color: var(--text-dim); }
+    .stat-value { font-weight: 600; font-family: var(--mono); font-size: 11px; }
+
+    /* Iran warning */
+    .iran-alert {
+      margin-top: 10px;
+      background: rgba(220,38,38,0.1);
+      border: 1px solid rgba(220,38,38,0.3);
+      border-radius: 6px;
+      padding: 8px;
+      font-size: 11px;
+      color: #fca5a5;
+    }
+
+    .iran-alert strong { color: var(--iran-red); }
+
+    /* Security spike indicator */
+    .security-spike {
+      margin-top: 8px;
+      background: rgba(239,68,68,0.08);
+      border: 1px solid rgba(239,68,68,0.2);
+      border-radius: 6px;
+      padding: 8px;
+      font-size: 11px;
+      color: #fca5a5;
+    }
+
+    /* ===== LEGEND ===== */
+    #legend {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      background: rgba(13,21,32,0.92);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px;
+      z-index: 800;
+      font-size: 11px;
+    }
+
+    #legend h4 {
+      font-size: 11px;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin: 3px 0;
+    }
+
+    .legend-swatch {
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    .legend-size {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+      color: var(--text-dim);
+    }
+
+    .legend-size-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 4px 0;
+    }
+
+    .legend-size-circle {
+      border-radius: 50%;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.25);
+      flex-shrink: 0;
+    }
+
+    /* ===== POPUP ===== */
+    .leaflet-popup-content-wrapper {
+      background: rgba(13,21,32,0.96);
+      color: var(--text);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      padding: 0;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    }
+
+    .leaflet-popup-tip { background: rgba(13,21,32,0.96); }
+    .leaflet-popup-content { margin: 0; min-width: 260px; }
+
+    .popup-head {
+      background: var(--bg-surface);
+      padding: 10px 14px;
+      border-radius: 10px 10px 0 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .popup-body { padding: 10px 14px; }
+
+    .popup-stat {
+      display: flex;
+      justify-content: space-between;
+      padding: 4px 0;
+      font-size: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+
+    .popup-stat .label { color: var(--text-dim); }
+    .popup-stat .val { font-weight: 600; font-family: var(--mono); font-size: 11px; }
+
+    .popup-cats {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+
+    .popup-cat-bar {
+      display: flex;
+      height: 6px;
+      border-radius: 3px;
+      overflow: hidden;
+      margin: 6px 0;
+    }
+
+    .popup-cat-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      padding: 2px 0;
+    }
+
+    .popup-cat-label { color: var(--text-dim); display: flex; align-items: center; gap: 4px; }
+    .popup-cat-pct { font-family: var(--mono); color: var(--text); }
+
+    .popup-queries {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+
+    .popup-queries h5 {
+      font-size: 11px;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+
+    .popup-q {
+      display: flex;
+      justify-content: space-between;
+      padding: 3px 0;
+      font-size: 11px;
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+    }
+
+    .popup-q .q-text { color: var(--text-dim); }
+    .popup-q .q-tr { color: var(--accent); font-size: 9px; display: block; }
+    .popup-q .q-vol { font-family: var(--mono); font-size: 10px; color: var(--text-muted); }
+
+    /* ===== DAY NOTIFICATION ===== */
+    #dayNotif {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(13,21,32,0.95);
+      border: 1px solid var(--border);
+      padding: 16px 32px;
+      border-radius: 12px;
+      z-index: 900;
+      text-align: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.4s;
+    }
+
+    #dayNotif.show { opacity: 1; }
+    #dayNotif.war-notif { border-color: var(--war-red); }
+
+    #dayNotif .notif-date { font-size: 22px; font-weight: 800; }
+    #dayNotif .notif-day { font-size: 13px; color: var(--text-dim); margin-top: 4px; }
+    #dayNotif.war-notif .notif-date { color: var(--war-red); }
+
+    /* ===== COPYRIGHT ===== */
+    #copyright {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      font-size: 10px;
+      color: var(--text-muted);
+      z-index: 800;
+      background: rgba(13,21,32,0.8);
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    /* ===== SLIDER ===== */
+    input[type="range"] {
+      width: 80px;
+      height: 3px;
+      border-radius: 2px;
+      background: var(--border);
+      outline: none;
+      -webkit-appearance: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--accent);
+      cursor: pointer;
+    }
+
+    /* ===== LEAFLET OVERRIDES ===== */
+    .leaflet-control-zoom a {
+      background: var(--bg-panel) !important;
+      color: var(--text) !important;
+      border-color: var(--border) !important;
+    }
+
+    .leaflet-control-attribution { display: none; }
+
+    /* Pie marker hover */
+    .pie-marker { cursor: pointer; transition: transform 0.3s; }
+    .pie-marker:hover { transform: scale(1.15); }
+
+    /* Country label on map */
+    .country-label {
+      font-family: var(--font);
+      font-size: 10px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.7);
+      text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+      white-space: nowrap;
+      pointer-events: none;
+    }
+
+    /* Iran X marker */
+    .iran-x {
+      font-size: 28px;
+      color: var(--iran-red);
+      text-shadow: 0 0 12px rgba(220,38,38,0.8);
+      animation: iranX 1.5s infinite;
+    }
+
+    @keyframes iranX {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <div id="header">
+    <h1>
+      <span>🌍</span>
+      <span>Middle East Search Pulse</span>
+    </h1>
+    <div class="header-badges">
+      <div class="badge" id="badgeDate">—</div>
+      <div class="badge" id="badgeTotal">—</div>
+      <div class="badge" id="badgeCountries">13 countries</div>
+      <div class="badge war" id="badgeWar" style="display:none">⚠ WAR</div>
+    </div>
+  </div>
+
+  <!-- STORY HEADLINE -->
+  <div id="storyBar">
+    <span id="dayCounter"></span>
+    <span id="storyHeadline" class="pre-war"></span>
+  </div>
+
+  <!-- CONTROLS -->
+  <div id="controls">
+    <!-- Playback -->
+    <div class="control-group">
+      <button class="btn play-btn" id="playBtn">▶ Play</button>
+      <button class="btn" data-speed="5000">Slow</button>
+      <button class="btn active" data-speed="2500">Normal</button>
+      <button class="btn" data-speed="1200">Fast</button>
+    </div>
+
+    <div class="separator"></div>
+
+    <!-- Axis groups -->
+    <div class="control-group">
+      <span class="control-label">Axes</span>
+      <button class="btn axis-btn active" data-axis="all">All</button>
+      <button class="btn axis-btn" data-axis="sunni">☀️ Sunni</button>
+      <button class="btn axis-btn" data-axis="shia">🌙 Shia</button>
+      <button class="btn axis-btn" data-axis="gulf">🏙️ Gulf</button>
+      <button class="btn axis-btn" data-axis="israel">🇮🇱 Israel</button>
+      <button class="btn axis-btn" data-axis="palestine">🇵🇸 Palestine</button>
+      <button class="btn axis-btn" data-axis="other">🌐 Other</button>
+    </div>
+
+    <div class="separator"></div>
+
+    <!-- Category filters -->
+    <div class="control-group">
+      <span class="control-label">Categories</span>
+      <button class="btn cat-btn active" data-cat="all">All</button>
+      <button class="btn cat-btn" data-cat="daily_life"><span class="swatch" style="background:#4caf50"></span>Daily Life</button>
+      <button class="btn cat-btn" data-cat="sports"><span class="swatch" style="background:#ff5722"></span>Sports</button>
+      <button class="btn cat-btn" data-cat="culture"><span class="swatch" style="background:#9c27b0"></span>Culture</button>
+      <button class="btn cat-btn" data-cat="security"><span class="swatch" style="background:#f44336"></span>Security</button>
+      <button class="btn cat-btn" data-cat="economy"><span class="swatch" style="background:#ffc107"></span>Economy</button>
+      <button class="btn cat-btn" data-cat="tech"><span class="swatch" style="background:#2196f3"></span>Tech</button>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="control-group">
+      <span class="control-label">Size</span>
+      <input type="range" id="sizeSlider" min="0.5" max="2.5" step="0.1" value="1.0">
+    </div>
+  </div>
+
+  <!-- TIMELINE -->
+  <div id="timeline">
+    <div class="timeline-container" id="timelineContainer"></div>
+  </div>
+
+  <!-- MAP -->
+  <div id="mapWrap">
+    <div id="map"></div>
+
+    <!-- Stats Panel -->
+    <div id="statsPanel">
+      <h3>📊 Stats</h3>
+      <div class="stat-row"><span class="stat-label">Date</span><span class="stat-value" id="statDate">—</span></div>
+      <div class="stat-row"><span class="stat-label">View</span><span class="stat-value" id="statFilter">All</span></div>
+      <div class="stat-row"><span class="stat-label">Countries</span><span class="stat-value" id="statCountries">13</span></div>
+      <div class="stat-row"><span class="stat-label">Top</span><span class="stat-value" id="statTop">—</span></div>
+      <div class="stat-row"><span class="stat-label">Total</span><span class="stat-value" id="statTotal">—</span></div>
+      <div id="securitySpike" class="security-spike" style="display:none">
+        <strong>🎖️ Security:</strong> <span id="securityText"></span>
+      </div>
+      <div id="iranAlert" class="iran-alert" style="display:none">
+        <strong>🇮🇷 Iran:</strong> <span id="iranText"></span>
+      </div>
+    </div>
+
+    <!-- Legend -->
+    <div id="legend">
+      <h4>Categories (color)</h4>
+      <div id="legendColors"></div>
+      <div class="legend-size">
+        <h4 style="margin-bottom:4px;">Volume (size)</h4>
+        <div class="legend-size-row">
+          <div class="legend-size-circle" style="width:10px;height:10px;"></div>
+          <span>10K</span>
+        </div>
+        <div class="legend-size-row">
+          <div class="legend-size-circle" style="width:20px;height:20px;"></div>
+          <span>100K+</span>
+        </div>
+        <div class="legend-size-row">
+          <div class="legend-size-circle" style="width:32px;height:32px;"></div>
+          <span>1M+</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Day notification -->
+    <div id="dayNotif">
+      <div class="notif-date" id="notifDate"></div>
+      <div class="notif-day" id="notifDay"></div>
+    </div>
+
+    <!-- Copyright -->
+    <div id="copyright">© 2026 Amnon Zussman</div>
+  </div>
+
+  <script>
+  // ============================================================
+  // DATA LOADING
+  // ============================================================
+  let DATA = null;
+  let CONFIG = null;
+
+  async function loadData() {
+    const resp = await fetch('data/map_data.json');
+    const json = await resp.json();
+    DATA = json.days;
+    CONFIG = json.config;
+    init();
+  }
+
+  // ============================================================
+  // STATE
+  // ============================================================
+  let currentDate = null;
+  let currentAxis = 'all';
+  let currentCat = 'all';
+  let markers = {};
+  let labelMarkers = {};
+  let isPlaying = false;
+  let playInterval = null;
+  let animSpeed = 2500;
+  let sizeMult = 1.0;
+  let map = null;
+
+  // ============================================================
+  // HELPERS
+  // ============================================================
+  function fmt(n) {
+    if (n >= 1e6) return (n/1e6).toFixed(2) + 'M';
+    if (n >= 1e3) return (n/1e3).toFixed(0) + 'K';
+    return n.toString();
+  }
+
+  function fmtDate(d) {
+    const [y,m,day] = d.split('-');
+    return `${parseInt(day)}.${parseInt(m)}.${y}`;
+  }
+
+  function isWarDay(date) {
+    return CONFIG && date >= CONFIG.war_start;
+  }
+
+  function getAxisCountries(axis) {
+    if (axis === 'all') return Object.keys(CONFIG.countries);
+    const grp = CONFIG.groups[axis];
+    return grp ? grp.countries : [];
+  }
+
+  function getCountryAxis(code) {
+    for (const [axis, grp] of Object.entries(CONFIG.groups)) {
+      if (grp.countries.includes(code)) return axis;
+    }
+    return 'other';
+  }
+
+  function isCountryVisible(code) {
+    if (currentAxis === 'all') return true;
+    return getAxisCountries(currentAxis).includes(code);
+  }
+
+  // ============================================================
+  // MAP SETUP
+  // ============================================================
+  function setupMap() {
+    map = L.map('map', {
+      center: [30, 42],
+      zoom: 5,
+      minZoom: 4,
+      maxZoom: 8,
+      zoomControl: true,
+    });
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
+      attribution: '© OpenStreetMap, © CartoDB'
+    }).addTo(map);
+  }
+
+  // ============================================================
+  // PIE CHART SVG GENERATOR
+  // ============================================================
+  function createPieSVG(categories, totalSearches, radius) {
+    const cats = CONFIG.categories;
+    const entries = Object.entries(categories)
+      .filter(([k,v]) => v > 0 && k !== 'other')
+      .sort((a,b) => b[1] - a[1]);
+
+    const otherVal = categories.other || 0;
+    if (otherVal > 0) entries.push(['other', otherVal]);
+
+    if (entries.length === 0) return null;
+
+    const total = entries.reduce((s,[,v]) => s+v, 0);
+    if (total === 0) return null;
+
+    const size = radius * 2 + 4;
+    const cx = size / 2;
+    const cy = size / 2;
+    const r = radius;
+
+    // If only one category, just a circle
+    if (entries.length === 1) {
+      const color = cats[entries[0][0]]?.color || '#9e9e9e';
+      return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+        <circle cx="${cx}" cy="${cy}" r="${r}" fill="${color}" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+      </svg>`;
+    }
+
+    let svg = `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">`;
+
+    let startAngle = -Math.PI / 2;
+    for (const [cat, val] of entries) {
+      const pct = val / total;
+      const angle = pct * Math.PI * 2;
+      const endAngle = startAngle + angle;
+
+      const x1 = cx + r * Math.cos(startAngle);
+      const y1 = cy + r * Math.sin(startAngle);
+      const x2 = cx + r * Math.cos(endAngle);
+      const y2 = cy + r * Math.sin(endAngle);
+
+      const largeArc = angle > Math.PI ? 1 : 0;
+      const color = cats[cat]?.color || '#9e9e9e';
+
+      svg += `<path d="M${cx},${cy} L${x1},${y1} A${r},${r} 0 ${largeArc},1 ${x2},${y2} Z" fill="${color}" stroke="rgba(0,0,0,0.3)" stroke-width="0.5"/>`;
+
+      startAngle = endAngle;
+    }
+
+    svg += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>`;
+    svg += `</svg>`;
+
+    return svg;
+  }
+
+  // ============================================================
+  // MARKER SIZE
+  // ============================================================
+  function getRadius(volume) {
+    if (volume <= 0) return 0;
+    const base = Math.log10(volume + 1) * 4;
+    return Math.max(6, Math.min(40, base * sizeMult));
+  }
+
+  // ============================================================
+  // POPUP CONTENT
+  // ============================================================
+  function popupHTML(code, country) {
+    const cats = CONFIG.categories;
+    const total = country.total_searches;
+    const dayData = DATA[currentDate];
+    const dayTotal = Object.values(dayData).reduce((s,c) => s + c.total_searches, 0);
+    const pct = ((total / dayTotal) * 100).toFixed(1);
+
+    // Category breakdown bar + list
+    const catEntries = Object.entries(country.categories)
+      .filter(([,v]) => v > 0)
+      .sort((a,b) => b[1] - a[1]);
+
+    let barHTML = '<div class="popup-cat-bar">';
+    let listHTML = '';
+    for (const [cat, vol] of catEntries) {
+      const cpct = ((vol/total)*100);
+      const color = cats[cat]?.color || '#9e9e9e';
+      const label = cats[cat]?.label || cat;
+      barHTML += `<div style="width:${cpct}%;background:${color};"></div>`;
+      listHTML += `<div class="popup-cat-row">
+        <span class="popup-cat-label"><span style="display:inline-block;width:6px;height:6px;border-radius:1px;background:${color};"></span> ${label}</span>
+        <span class="popup-cat-pct">${cpct.toFixed(1)}%</span>
+      </div>`;
+    }
+    barHTML += '</div>';
+
+    // Top queries
+    let qHTML = '';
+    if (country.top_queries && country.top_queries.length > 0) {
+      qHTML = '<div class="popup-queries"><h5>🔥 Top Searches</h5>';
+      for (const q of country.top_queries.slice(0, 5)) {
+        const tr = q.translation ? `<span class="q-tr">${q.translation}</span>` : '';
+        qHTML += `<div class="popup-q">
+          <div class="q-text">${q.query}${tr}</div>
+          <div class="q-vol">${fmt(q.volume)}</div>
+        </div>`;
+      }
+      qHTML += '</div>';
+    }
+
+    return `
+      <div class="popup-head">${country.name}</div>
+      <div class="popup-body">
+        <div class="popup-stat"><span class="label">Total Searches</span><span class="val">${fmt(total)}</span></div>
+        <div class="popup-stat"><span class="label">% of Day</span><span class="val">${pct}%</span></div>
+        <div class="popup-stat"><span class="label">Main Category</span><span class="val">${cats[country.main_category]?.label || country.main_category}</span></div>
+        <div class="popup-cats">
+          ${barHTML}
+          ${listHTML}
+        </div>
+        ${qHTML}
+      </div>
+    `;
+  }
+
+  // ============================================================
+  // UPDATE MARKERS
+  // ============================================================
+  function updateMarkers() {
+    // Clear old
+    Object.values(markers).forEach(m => map.removeLayer(m));
+    Object.values(labelMarkers).forEach(m => map.removeLayer(m));
+    markers = {};
+    labelMarkers = {};
+
+    const dayData = DATA[currentDate];
+    if (!dayData) return;
+
+    let count = 0;
+    let totalVol = 0;
+    let maxVol = 0;
+    let maxName = '';
+    let secTotal = 0;
+
+    for (const [code, country] of Object.entries(dayData)) {
+      const coords = CONFIG.countries[code]?.coords;
+      if (!coords) continue;
+
+      const visible = isCountryVisible(code);
+      const vol = country.total_searches;
+
+      // Iran special handling
+      if (code === 'IR' && vol === 0) {
+        // Show X marker
+        const icon = L.divIcon({
+          html: '<div class="iran-x">✕</div>',
+          className: '',
+          iconSize: [30, 30],
+          iconAnchor: [15, 15]
+        });
+        const m = L.marker(coords, { icon, opacity: visible ? 1 : 0.15 });
+        m.addTo(map);
+        m.bindPopup(popupHTML(code, country), { maxWidth: 300 });
+        markers[code] = m;
+
+        // Label
+        const lbl = L.marker([coords[0]-1.2, coords[1]], {
+          icon: L.divIcon({
+            html: `<div class="country-label" style="opacity:${visible?0.8:0.15}">${country.name}</div>`,
+            className: '',
+            iconSize: [60, 14],
+            iconAnchor: [30, 7]
+          })
+        });
+        lbl.addTo(map);
+        labelMarkers[code] = lbl;
+        continue;
+      }
+
+      if (vol <= 0) continue;
+
+      const radius = getRadius(vol);
+      const pieSVG = createPieSVG(country.categories, vol, radius);
+      if (!pieSVG) continue;
+
+      const svgSize = radius * 2 + 4;
+      const opacity = visible ? 1 : 0.12;
+
+      const icon = L.divIcon({
+        html: `<div class="pie-marker" style="opacity:${opacity}">${pieSVG}</div>`,
+        className: '',
+        iconSize: [svgSize, svgSize],
+        iconAnchor: [svgSize/2, svgSize/2]
+      });
+
+      const m = L.marker(coords, { icon });
+      m.addTo(map);
+      m.bindPopup(popupHTML(code, country), { maxWidth: 300 });
+      markers[code] = m;
+
+      // Label below marker
+      const lbl = L.marker([coords[0] - (radius/18 + 0.8), coords[1]], {
+        icon: L.divIcon({
+          html: `<div class="country-label" style="opacity:${visible?0.8:0.12}">${country.name}<br><span style="font-family:var(--mono);font-size:9px;color:rgba(255,255,255,0.5)">${fmt(vol)}</span></div>`,
+          className: '',
+          iconSize: [80, 28],
+          iconAnchor: [40, 0]
+        })
+      });
+      lbl.addTo(map);
+      labelMarkers[code] = lbl;
+
+      if (visible) {
+        count++;
+        totalVol += vol;
+        secTotal += country.categories.security || 0;
+        if (vol > maxVol) { maxVol = vol; maxName = country.name; }
+      }
+    }
+
+    // Update stats
+    document.getElementById('statDate').textContent = fmtDate(currentDate);
+    document.getElementById('statFilter').textContent = currentAxis === 'all' ? 'All' : CONFIG.groups[currentAxis]?.label || currentAxis;
+    document.getElementById('statCountries').textContent = count;
+    document.getElementById('statTop').textContent = maxName || '—';
+    document.getElementById('statTotal').textContent = fmt(totalVol);
+
+    document.getElementById('badgeDate').textContent = fmtDate(currentDate);
+    document.getElementById('badgeTotal').textContent = fmt(totalVol) + ' searches';
+    document.getElementById('badgeWar').style.display = isWarDay(currentDate) ? '' : 'none';
+
+    // Security spike
+    const secEl = document.getElementById('securitySpike');
+    const allTotal = Object.values(dayData).reduce((s,c) => s+c.total_searches, 0);
+    const allSec = Object.values(dayData).reduce((s,c) => s+(c.categories.security||0), 0);
+    const secPct = ((allSec / allTotal) * 100);
+
+    if (secPct > 0.5) {
+      secEl.style.display = '';
+      document.getElementById('securityText').textContent = `${fmt(allSec)} (${secPct.toFixed(1)}% of total)`;
+    } else {
+      secEl.style.display = 'none';
+    }
+
+    // Iran alert
+    const iranEl = document.getElementById('iranAlert');
+    const iranData = dayData['IR'];
+    if (iranData) {
+      iranEl.style.display = '';
+      if (iranData.total_searches === 0) {
+        document.getElementById('iranText').textContent = 'OFFLINE — disappeared from data';
+      } else if (currentDate === CONFIG.war_start) {
+        document.getElementById('iranText').textContent = `${fmt(iranData.total_searches)} (baseline)`;
+      } else if (isWarDay(currentDate)) {
+        // Calculate % of war_start
+        const baseIran = DATA[CONFIG.war_start]?.['IR']?.total_searches || 1;
+        const pct = ((iranData.total_searches / baseIran) * 100).toFixed(0);
+        document.getElementById('iranText').textContent = `${fmt(iranData.total_searches)} (${pct}% of day 1)`;
+      } else {
+        document.getElementById('iranText').textContent = `${fmt(iranData.total_searches)} (normal)`;
+      }
+    } else {
+      iranEl.style.display = 'none';
+    }
+  }
+
+  // ============================================================
+  // TIMELINE
+  // ============================================================
+  function buildTimeline() {
+    const container = document.getElementById('timelineContainer');
+    container.innerHTML = '';
+
+    const dates = CONFIG.dates;
+    let warDividerAdded = false;
+
+    dates.forEach((date, idx) => {
+      // Add war divider before first war day
+      if (!warDividerAdded && isWarDay(date)) {
+        const divider = document.createElement('div');
+        divider.className = 'tl-war-divider';
+        container.appendChild(divider);
+        warDividerAdded = true;
+      }
+
+      const el = document.createElement('div');
+      el.className = 'tl-day';
+      el.dataset.date = date;
+
+      if (isWarDay(date)) el.classList.add('war-day');
+      if (date === CONFIG.war_start) el.classList.add('war-start');
+
+      // Check if Iran is dead this day
+      const iranVol = DATA[date]?.['IR']?.total_searches || 0;
+      if (isWarDay(date) && iranVol === 0) el.classList.add('iran-dead');
+
+      const warMarker = date === CONFIG.war_start ? '<div class="tl-war-marker">WAR</div>' : '';
+
+      el.innerHTML = `
+        ${warMarker}
+        <div class="tl-dot"></div>
+        <div class="tl-label">${fmtDate(date)}</div>
+        <div class="tl-dayname">${CONFIG.day_names[date] || ''}</div>
+      `;
+
+      el.addEventListener('click', () => {
+        stopAnim();
+        goToDate(date);
+      });
+
+      container.appendChild(el);
+    });
+  }
+
+  function updateTimeline() {
+    document.querySelectorAll('.tl-day').forEach(el => {
+      el.classList.toggle('active', el.dataset.date === currentDate);
+    });
+  }
+
+  // ============================================================
+  // STORY HEADLINE
+  // ============================================================
+  function updateStory() {
+    const el = document.getElementById('storyHeadline');
+    const counter = document.getElementById('dayCounter');
+    const headline = CONFIG.story_headlines[currentDate] || '';
+
+    el.textContent = headline;
+    el.className = isWarDay(currentDate) ? 'war' : 'pre-war';
+
+    const idx = CONFIG.dates.indexOf(currentDate);
+    const warIdx = CONFIG.dates.indexOf(CONFIG.war_start);
+
+    if (idx < warIdx) {
+      counter.textContent = `D-${warIdx - idx}`;
+    } else {
+      counter.textContent = `Day ${idx - warIdx + 1}`;
+    }
+  }
+
+  // ============================================================
+  // NAVIGATION
+  // ============================================================
+  function goToDate(date) {
+    currentDate = date;
+    updateTimeline();
+    updateStory();
+    updateMarkers();
+    showNotif(date);
+  }
+
+  function showNotif(date) {
+    const el = document.getElementById('dayNotif');
+    document.getElementById('notifDate').textContent = fmtDate(date);
+    document.getElementById('notifDay').textContent = CONFIG.day_names[date] || '';
+
+    el.className = isWarDay(date) ? 'war-notif' : '';
+    el.classList.add('show');
+
+    setTimeout(() => el.classList.remove('show'), 1200);
+  }
+
+  function nextDay() {
+    const dates = CONFIG.dates;
+    const idx = dates.indexOf(currentDate);
+    if (idx < dates.length - 1) {
+      goToDate(dates[idx + 1]);
+      return true;
+    }
+    return false;
+  }
+
+  // ============================================================
+  // ANIMATION
+  // ============================================================
+  function startAnim() {
+    if (isPlaying) return;
+    isPlaying = true;
+    document.getElementById('playBtn').classList.add('playing');
+    document.getElementById('playBtn').textContent = '⏸ Pause';
+
+    playInterval = setInterval(() => {
+      if (!nextDay()) {
+        goToDate(CONFIG.dates[0]); // loop
+      }
+    }, animSpeed);
+  }
+
+  function stopAnim() {
+    isPlaying = false;
+    clearInterval(playInterval);
+    document.getElementById('playBtn').classList.remove('playing');
+    document.getElementById('playBtn').textContent = '▶ Play';
+  }
+
+  // ============================================================
+  // LEGEND
+  // ============================================================
+  function buildLegend() {
+    const container = document.getElementById('legendColors');
+    const cats = CONFIG.categories;
+    for (const [key, cat] of Object.entries(cats)) {
+      container.innerHTML += `<div class="legend-item">
+        <div class="legend-swatch" style="background:${cat.color}"></div>
+        <span>${cat.label}</span>
+      </div>`;
+    }
+  }
+
+  // ============================================================
+  // EVENT LISTENERS
+  // ============================================================
+  function setupEvents() {
+    // Play
+    document.getElementById('playBtn').addEventListener('click', () => {
+      isPlaying ? stopAnim() : startAnim();
+    });
+
+    // Speed
+    document.querySelectorAll('[data-speed]').forEach(btn => {
+      btn.addEventListener('click', function() {
+        animSpeed = parseInt(this.dataset.speed);
+        document.querySelectorAll('[data-speed]').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        if (isPlaying) { stopAnim(); startAnim(); }
+      });
+    });
+
+    // Axis groups
+    document.querySelectorAll('.axis-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        currentAxis = this.dataset.axis;
+        document.querySelectorAll('.axis-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        updateMarkers();
+      });
+    });
+
+    // Category filters
+    document.querySelectorAll('.cat-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        currentCat = this.dataset.cat;
+        document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        updateMarkers();
+      });
+    });
+
+    // Size slider
+    document.getElementById('sizeSlider').addEventListener('input', (e) => {
+      sizeMult = parseFloat(e.target.value);
+      updateMarkers();
+    });
+  }
+
+  // ============================================================
+  // INIT
+  // ============================================================
+  function init() {
+    setupMap();
+    buildTimeline();
+    buildLegend();
+    setupEvents();
+
+    currentDate = CONFIG.dates[0];
+    goToDate(currentDate);
+  }
+
+  // Boot
+  loadData();
+  </script>
+</body>
+</html>

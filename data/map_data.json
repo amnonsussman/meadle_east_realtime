@@ -1,0 +1,6225 @@
+{
+  "config": {
+    "title": "🌍 10 ימי מזרח תיכון | 23.2-4.3.2026",
+    "dates": [
+      "2026-02-23",
+      "2026-02-24",
+      "2026-02-25",
+      "2026-02-26",
+      "2026-02-27",
+      "2026-02-28",
+      "2026-03-01",
+      "2026-03-02",
+      "2026-03-03",
+      "2026-03-04"
+    ],
+    "war_start": "2026-02-28",
+    "day_names": {
+      "2026-02-23": "יום שני",
+      "2026-02-24": "יום שלישי",
+      "2026-02-25": "יום רביעי",
+      "2026-02-26": "יום חמישי",
+      "2026-02-27": "יום שישי",
+      "2026-02-28": "יום שבת",
+      "2026-03-01": "יום ראשון",
+      "2026-03-02": "יום שני",
+      "2026-03-03": "יום שלישי",
+      "2026-03-04": "יום רביעי"
+    },
+    "countries": {
+      "IL": {
+        "name": "ישראל",
+        "coords": [
+          31.5,
+          34.8
+        ]
+      },
+      "PS": {
+        "name": "פלסטין",
+        "coords": [
+          31.9,
+          35.2
+        ]
+      },
+      "JO": {
+        "name": "ירדן",
+        "coords": [
+          31.95,
+          35.9
+        ]
+      },
+      "LB": {
+        "name": "לבנון",
+        "coords": [
+          33.9,
+          35.5
+        ]
+      },
+      "SY": {
+        "name": "סוריה",
+        "coords": [
+          35.0,
+          38.0
+        ]
+      },
+      "IQ": {
+        "name": "עיראק",
+        "coords": [
+          33.3,
+          44.4
+        ]
+      },
+      "IR": {
+        "name": "איראן",
+        "coords": [
+          32.4,
+          53.7
+        ]
+      },
+      "TR": {
+        "name": "טורקיה",
+        "coords": [
+          39.0,
+          35.0
+        ]
+      },
+      "EG": {
+        "name": "מצרים",
+        "coords": [
+          26.8,
+          30.8
+        ]
+      },
+      "SA": {
+        "name": "סעודיה",
+        "coords": [
+          24.0,
+          45.0
+        ]
+      },
+      "AE": {
+        "name": "איחוד האמירויות",
+        "coords": [
+          24.0,
+          54.0
+        ]
+      },
+      "YE": {
+        "name": "תימן",
+        "coords": [
+          15.5,
+          48.0
+        ]
+      },
+      "CY": {
+        "name": "קפריסין",
+        "coords": [
+          35.0,
+          33.0
+        ]
+      }
+    },
+    "groups": {
+      "sunni": {
+        "label": "ציר סוני",
+        "emoji": "☀️",
+        "countries": [
+          "TR",
+          "SA",
+          "EG",
+          "JO"
+        ]
+      },
+      "shia": {
+        "label": "ציר שיעי",
+        "emoji": "🌙",
+        "countries": [
+          "IR",
+          "IQ",
+          "SY",
+          "LB",
+          "YE"
+        ]
+      },
+      "gulf": {
+        "label": "נסיכויות המפרץ",
+        "emoji": "🏙️",
+        "countries": [
+          "AE"
+        ]
+      },
+      "israel": {
+        "label": "ישראל",
+        "emoji": "🇮🇱",
+        "countries": [
+          "IL"
+        ]
+      },
+      "palestine": {
+        "label": "פלסטין",
+        "emoji": "🇵🇸",
+        "countries": [
+          "PS"
+        ]
+      },
+      "other": {
+        "label": "אחר",
+        "emoji": "🌐",
+        "countries": [
+          "CY"
+        ]
+      }
+    },
+    "categories": {
+      "daily_life": {
+        "label": "חיי יום-יום",
+        "color": "#4caf50",
+        "emoji": "🌤️"
+      },
+      "sports": {
+        "label": "ספורט",
+        "color": "#ff5722",
+        "emoji": "⚽"
+      },
+      "culture": {
+        "label": "תרבות",
+        "color": "#9c27b0",
+        "emoji": "🎬"
+      },
+      "security": {
+        "label": "ביטחון",
+        "color": "#f44336",
+        "emoji": "🎖️"
+      },
+      "economy": {
+        "label": "כלכלה",
+        "color": "#ffc107",
+        "emoji": "💰"
+      },
+      "tech": {
+        "label": "טכנולוגיה",
+        "color": "#2196f3",
+        "emoji": "📱"
+      },
+      "other": {
+        "label": "אחר",
+        "color": "#9e9e9e",
+        "emoji": "📌"
+      }
+    },
+    "story_headlines": {
+      "2026-02-23": "שגרה במזרח התיכון — רמדאן, כדורגל, מזג אוויר",
+      "2026-02-24": "יום שגרתי — טורקיה שולטת בנפח, ספורט בכל מקום",
+      "2026-02-25": "הכל רגיל — אף סימן למה שעומד לקרות",
+      "2026-02-26": "ערב המלחמה — שקט מטעה",
+      "2026-02-27": "השקט שלפני הסערה",
+      "2026-02-28": "💥 יום 1 — המלחמה פורצת! ביטחון מזנק פי 20",
+      "2026-03-01": "🔥 יום 2 — המזרח התיכון בוער, איראן מתחילה להיעלם",
+      "2026-03-02": "📉 יום 3 — איראן קורסת ל-20%, צנזורה?",
+      "2026-03-03": "⚫ יום 4 — איראן נעלמה מהנתונים",
+      "2026-03-04": "⚫ יום 5 — דממת אלחוט מאיראן נמשכת"
+    }
+  },
+  "days": {
+    "2026-02-23": {
+      "TR": {
+        "name": "טורקיה",
+        "total_searches": 1780000,
+        "categories": {
+          "daily_life": 860000,
+          "sports": 118000,
+          "culture": 390000,
+          "security": 200,
+          "economy": 12800,
+          "tech": 4600,
+          "other": 394400
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Iftar Hour",
+            "translation": "iftar saati",
+            "volume": 112000,
+            "category": "daily_life"
+          },
+          {
+            "query": "atv live",
+            "translation": "atv canlı",
+            "volume": 106000,
+            "category": "culture"
+          },
+          {
+            "query": "Adana iftar time",
+            "translation": "adana iftar vakti",
+            "volume": 96000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Batman iftar time",
+            "translation": "batman iftar vakti",
+            "volume": 93000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Galatasaray",
+            "translation": "Galatasaray",
+            "volume": 28000,
+            "category": "sports"
+          }
+        ]
+      },
+      "IQ": {
+        "name": "עיראק",
+        "total_searches": 1590000,
+        "categories": {
+          "daily_life": 840000,
+          "sports": 640000,
+          "culture": 0,
+          "security": 300,
+          "economy": 3900,
+          "tech": 27000,
+          "other": 79800
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 298000,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 207000,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 150000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona vs Real Madrid",
+            "translation": "مباراة برشلونة وريال مدريد",
+            "volume": 130000,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona vs Real Madrid",
+            "translation": "مباراة برشلونة وريال مدريد",
+            "volume": 108000,
+            "category": "sports"
+          }
+        ]
+      },
+      "CY": {
+        "name": "קפריסין",
+        "total_searches": 290000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 152000,
+          "culture": 12000,
+          "security": 100,
+          "economy": 0,
+          "tech": 73000,
+          "other": 53900
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 6300,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 5100,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 5000,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 4500,
+            "category": "sports"
+          },
+          {
+            "query": "South Africa vs New Zealand",
+            "translation": "",
+            "volume": 3200,
+            "category": "sports"
+          }
+        ]
+      },
+      "EG": {
+        "name": "מצרים",
+        "total_searches": 210000,
+        "categories": {
+          "daily_life": 3400,
+          "sports": 131000,
+          "culture": 22000,
+          "security": 200,
+          "economy": 5300,
+          "tech": 3100,
+          "other": 45000
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al Ahly vs Zamalek",
+            "translation": "الأهلي ضد الزمالك",
+            "volume": 12000,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5500,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5200,
+            "category": "sports"
+          },
+          {
+            "query": "Al Ahly vs Zamalek",
+            "translation": "الأهلي ضد الزمالك",
+            "volume": 4800,
+            "category": "sports"
+          },
+          {
+            "query": "Mohamed Salah",
+            "translation": "محمد صلاح",
+            "volume": 3200,
+            "category": "sports"
+          }
+        ]
+      },
+      "AE": {
+        "name": "איחוד האמירויות",
+        "total_searches": 185000,
+        "categories": {
+          "daily_life": 2300,
+          "sports": 85000,
+          "culture": 0,
+          "security": 150,
+          "economy": 2100,
+          "tech": 7800,
+          "other": 87650
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5600,
+            "category": "sports"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5500,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 5200,
+            "category": "other"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5100,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 4700,
+            "category": "other"
+          }
+        ]
+      },
+      "SA": {
+        "name": "סעודיה",
+        "total_searches": 153000,
+        "categories": {
+          "daily_life": 450,
+          "sports": 77000,
+          "culture": 500,
+          "security": 200,
+          "economy": 500,
+          "tech": 7200,
+          "other": 67150
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5400,
+            "category": "other"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5000,
+            "category": "other"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 2200,
+            "category": "sports"
+          },
+          {
+            "query": "Al Hilal",
+            "translation": "الهلال",
+            "volume": 2100,
+            "category": "sports"
+          },
+          {
+            "query": "Al Hilal",
+            "translation": "الهلال",
+            "volume": 1900,
+            "category": "sports"
+          }
+        ]
+      },
+      "JO": {
+        "name": "ירדן",
+        "total_searches": 152000,
+        "categories": {
+          "daily_life": 76000,
+          "sports": 67000,
+          "culture": 0,
+          "security": 150,
+          "economy": 0,
+          "tech": 3000,
+          "other": 5850
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11300,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11100,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10900,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10800,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10500,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "YE": {
+        "name": "תימן",
+        "total_searches": 141000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 126000,
+          "culture": 0,
+          "security": 100,
+          "economy": 0,
+          "tech": 0,
+          "other": 14900
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 8800,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 5300,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 5100,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 4500,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2100,
+            "category": "sports"
+          }
+        ]
+      },
+      "SY": {
+        "name": "סוריה",
+        "total_searches": 130000,
+        "categories": {
+          "daily_life": 7500,
+          "sports": 103000,
+          "culture": 1000,
+          "security": 200,
+          "economy": 0,
+          "tech": 0,
+          "other": 18300
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 4700,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 4500,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2200,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 2100,
+            "category": "sports"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 1800,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "IL": {
+        "name": "ישראל",
+        "total_searches": 128000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 30000,
+          "culture": 4500,
+          "security": 400,
+          "economy": 0,
+          "tech": 10000,
+          "other": 83100
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Kurds",
+            "translation": "כורדים",
+            "volume": 2300,
+            "category": "other"
+          },
+          {
+            "query": "Caroline Leavitt",
+            "translation": "קרוליין לוויט",
+            "volume": 2200,
+            "category": "other"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 2100,
+            "category": "other"
+          },
+          {
+            "query": "new love",
+            "translation": "אהבה חדשה",
+            "volume": 2000,
+            "category": "other"
+          },
+          {
+            "query": "Hapoel Beer Sheva",
+            "translation": "הפועל באר שבע",
+            "volume": 1800,
+            "category": "sports"
+          }
+        ]
+      },
+      "PS": {
+        "name": "פלסטין",
+        "total_searches": 108000,
+        "categories": {
+          "daily_life": 14000,
+          "sports": 77000,
+          "culture": 0,
+          "security": 150,
+          "economy": 0,
+          "tech": 10500,
+          "other": 6350
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5700,
+            "category": "daily_life"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5300,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 2200,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2100,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2000,
+            "category": "sports"
+          }
+        ]
+      },
+      "LB": {
+        "name": "לבנון",
+        "total_searches": 54000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 30000,
+          "culture": 900,
+          "security": 100,
+          "economy": 0,
+          "tech": 3900,
+          "other": 19100
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2200,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2100,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2000,
+            "category": "other"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 1100,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 1000,
+            "category": "sports"
+          }
+        ]
+      },
+      "IR": {
+        "name": "איראן",
+        "total_searches": 13000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 2100,
+          "culture": 0,
+          "security": 100,
+          "economy": 0,
+          "tech": 0,
+          "other": 10800
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 2000,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1900,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1800,
+            "category": "other"
+          },
+          {
+            "query": "Brighton vs Arsenal",
+            "translation": "",
+            "volume": 550,
+            "category": "sports"
+          },
+          {
+            "query": "Brighton vs Arsenal",
+            "translation": "",
+            "volume": 520,
+            "category": "sports"
+          }
+        ]
+      }
+    },
+    "2026-02-24": {
+      "TR": {
+        "name": "טורקיה",
+        "total_searches": 1795000,
+        "categories": {
+          "daily_life": 855000,
+          "sports": 119000,
+          "culture": 392000,
+          "security": 250,
+          "economy": 13000,
+          "tech": 4700,
+          "other": 411050
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Iftar Hour",
+            "translation": "iftar saati",
+            "volume": 113000,
+            "category": "daily_life"
+          },
+          {
+            "query": "atv live",
+            "translation": "atv canlı",
+            "volume": 107000,
+            "category": "culture"
+          },
+          {
+            "query": "Adana iftar time",
+            "translation": "adana iftar vakti",
+            "volume": 95000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Batman iftar time",
+            "translation": "batman iftar vakti",
+            "volume": 94000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Galatasaray",
+            "translation": "Galatasaray",
+            "volume": 27000,
+            "category": "sports"
+          }
+        ]
+      },
+      "IQ": {
+        "name": "עיראק",
+        "total_searches": 1610000,
+        "categories": {
+          "daily_life": 835000,
+          "sports": 655000,
+          "culture": 0,
+          "security": 280,
+          "economy": 4000,
+          "tech": 28000,
+          "other": 87720
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 295000,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 205000,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 151000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 128000,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 106000,
+            "category": "sports"
+          }
+        ]
+      },
+      "CY": {
+        "name": "קפריסין",
+        "total_searches": 293000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 153000,
+          "culture": 12200,
+          "security": 120,
+          "economy": 0,
+          "tech": 74000,
+          "other": 53680
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 6200,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 5050,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 4900,
+            "category": "sports"
+          },
+          {
+            "query": "South Africa vs New Zealand",
+            "translation": "",
+            "volume": 3100,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2500,
+            "category": "sports"
+          }
+        ]
+      },
+      "EG": {
+        "name": "מצרים",
+        "total_searches": 213000,
+        "categories": {
+          "daily_life": 3450,
+          "sports": 132000,
+          "culture": 22300,
+          "security": 220,
+          "economy": 5400,
+          "tech": 3100,
+          "other": 46530
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al Ahly",
+            "translation": "الأهلي",
+            "volume": 11500,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5400,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5100,
+            "category": "sports"
+          },
+          {
+            "query": "Mohamed Salah",
+            "translation": "محمد صلاح",
+            "volume": 3100,
+            "category": "sports"
+          },
+          {
+            "query": "Al Ahly",
+            "translation": "الأهلي",
+            "volume": 2900,
+            "category": "sports"
+          }
+        ]
+      },
+      "AE": {
+        "name": "איחוד האמירויות",
+        "total_searches": 186000,
+        "categories": {
+          "daily_life": 2350,
+          "sports": 85500,
+          "culture": 0,
+          "security": 160,
+          "economy": 2100,
+          "tech": 7900,
+          "other": 88090
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5500,
+            "category": "sports"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5400,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 5100,
+            "category": "other"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5000,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 4600,
+            "category": "other"
+          }
+        ]
+      },
+      "SA": {
+        "name": "סעודיה",
+        "total_searches": 154000,
+        "categories": {
+          "daily_life": 460,
+          "sports": 77500,
+          "culture": 510,
+          "security": 210,
+          "economy": 510,
+          "tech": 7300,
+          "other": 67510
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5500,
+            "category": "other"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5100,
+            "category": "other"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 2200,
+            "category": "sports"
+          },
+          {
+            "query": "Al Hilal",
+            "translation": "الهلال",
+            "volume": 2000,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle vs Man United",
+            "translation": "",
+            "volume": 1900,
+            "category": "sports"
+          }
+        ]
+      },
+      "JO": {
+        "name": "ירדן",
+        "total_searches": 153000,
+        "categories": {
+          "daily_life": 76500,
+          "sports": 67500,
+          "culture": 0,
+          "security": 160,
+          "economy": 0,
+          "tech": 3050,
+          "other": 5790
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11200,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10800,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10700,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10400,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "YE": {
+        "name": "תימן",
+        "total_searches": 142000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 127000,
+          "culture": 0,
+          "security": 110,
+          "economy": 0,
+          "tech": 0,
+          "other": 14890
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 8900,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 5400,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 5200,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 4600,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 2200,
+            "category": "sports"
+          }
+        ]
+      },
+      "SY": {
+        "name": "סוריה",
+        "total_searches": 131000,
+        "categories": {
+          "daily_life": 7600,
+          "sports": 104000,
+          "culture": 1000,
+          "security": 180,
+          "economy": 0,
+          "tech": 0,
+          "other": 18220
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 4800,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 4600,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2300,
+            "category": "sports"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 1900,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 1800,
+            "category": "sports"
+          }
+        ]
+      },
+      "IL": {
+        "name": "ישראל",
+        "total_searches": 130000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 30500,
+          "culture": 4550,
+          "security": 420,
+          "economy": 0,
+          "tech": 10200,
+          "other": 84330
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Kurds",
+            "translation": "כורדים",
+            "volume": 2250,
+            "category": "other"
+          },
+          {
+            "query": "Caroline Leavitt",
+            "translation": "קרוליין לוויט",
+            "volume": 2150,
+            "category": "other"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 2100,
+            "category": "other"
+          },
+          {
+            "query": "new love",
+            "translation": "אהבה חדשה",
+            "volume": 1950,
+            "category": "other"
+          },
+          {
+            "query": "Hapoel Beer Sheva",
+            "translation": "הפועל באר שבע",
+            "volume": 1750,
+            "category": "sports"
+          }
+        ]
+      },
+      "PS": {
+        "name": "פלסטין",
+        "total_searches": 109000,
+        "categories": {
+          "daily_life": 14200,
+          "sports": 77500,
+          "culture": 0,
+          "security": 140,
+          "economy": 0,
+          "tech": 10600,
+          "other": 6560
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5600,
+            "category": "daily_life"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5200,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 2150,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2050,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 1950,
+            "category": "sports"
+          }
+        ]
+      },
+      "LB": {
+        "name": "לבנון",
+        "total_searches": 55000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 30500,
+          "culture": 880,
+          "security": 110,
+          "economy": 0,
+          "tech": 3950,
+          "other": 19560
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2150,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2050,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 1950,
+            "category": "other"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 1050,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 980,
+            "category": "sports"
+          }
+        ]
+      },
+      "IR": {
+        "name": "איראן",
+        "total_searches": 12800,
+        "categories": {
+          "daily_life": 0,
+          "sports": 2050,
+          "culture": 0,
+          "security": 90,
+          "economy": 0,
+          "tech": 0,
+          "other": 10660
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1950,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1850,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1750,
+            "category": "other"
+          },
+          {
+            "query": "Brighton vs Arsenal",
+            "translation": "",
+            "volume": 540,
+            "category": "sports"
+          },
+          {
+            "query": "yak 130",
+            "translation": "",
+            "volume": 210,
+            "category": "other"
+          }
+        ]
+      }
+    },
+    "2026-02-25": {
+      "TR": {
+        "name": "טורקיה",
+        "total_searches": 1800000,
+        "categories": {
+          "daily_life": 858000,
+          "sports": 120000,
+          "culture": 393000,
+          "security": 220,
+          "economy": 12900,
+          "tech": 4750,
+          "other": 411130
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Iftar Hour",
+            "translation": "iftar saati",
+            "volume": 111000,
+            "category": "daily_life"
+          },
+          {
+            "query": "atv live",
+            "translation": "atv canlı",
+            "volume": 105500,
+            "category": "culture"
+          },
+          {
+            "query": "Batman iftar time",
+            "translation": "batman iftar vakti",
+            "volume": 95500,
+            "category": "daily_life"
+          },
+          {
+            "query": "Adana iftar time",
+            "translation": "adana iftar vakti",
+            "volume": 94000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Fenerbahce",
+            "translation": "Fenerbahçe",
+            "volume": 26000,
+            "category": "sports"
+          }
+        ]
+      },
+      "IQ": {
+        "name": "עיראק",
+        "total_searches": 1605000,
+        "categories": {
+          "daily_life": 838000,
+          "sports": 648000,
+          "culture": 0,
+          "security": 260,
+          "economy": 3950,
+          "tech": 27500,
+          "other": 87290
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 300000,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 208000,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 152000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 125000,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 105000,
+            "category": "sports"
+          }
+        ]
+      },
+      "CY": {
+        "name": "קפריסין",
+        "total_searches": 291000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 154000,
+          "culture": 12100,
+          "security": 110,
+          "economy": 0,
+          "tech": 73500,
+          "other": 51290
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 6100,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 5000,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 4850,
+            "category": "sports"
+          },
+          {
+            "query": "South Africa vs New Zealand",
+            "translation": "",
+            "volume": 3050,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2400,
+            "category": "sports"
+          }
+        ]
+      },
+      "EG": {
+        "name": "מצרים",
+        "total_searches": 212000,
+        "categories": {
+          "daily_life": 3430,
+          "sports": 133000,
+          "culture": 22100,
+          "security": 250,
+          "economy": 5350,
+          "tech": 3050,
+          "other": 44870
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al Ahly",
+            "translation": "الأهلي",
+            "volume": 11000,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5300,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5000,
+            "category": "sports"
+          },
+          {
+            "query": "Mohamed Salah",
+            "translation": "محمد صلاح",
+            "volume": 3050,
+            "category": "sports"
+          },
+          {
+            "query": "Zamalek",
+            "translation": "الزمالك",
+            "volume": 2800,
+            "category": "sports"
+          }
+        ]
+      },
+      "AE": {
+        "name": "איחוד האמירויות",
+        "total_searches": 186500,
+        "categories": {
+          "daily_life": 2380,
+          "sports": 86000,
+          "culture": 0,
+          "security": 170,
+          "economy": 2050,
+          "tech": 8000,
+          "other": 87900
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5550,
+            "category": "sports"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5450,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 5150,
+            "category": "other"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5050,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 4650,
+            "category": "other"
+          }
+        ]
+      },
+      "SA": {
+        "name": "סעודיה",
+        "total_searches": 155000,
+        "categories": {
+          "daily_life": 470,
+          "sports": 78000,
+          "culture": 520,
+          "security": 190,
+          "economy": 520,
+          "tech": 7250,
+          "other": 68050
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5450,
+            "category": "other"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5050,
+            "category": "other"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 2150,
+            "category": "sports"
+          },
+          {
+            "query": "Al Hilal",
+            "translation": "الهلال",
+            "volume": 2050,
+            "category": "sports"
+          },
+          {
+            "query": "Al Hilal",
+            "translation": "الهلال",
+            "volume": 1850,
+            "category": "sports"
+          }
+        ]
+      },
+      "JO": {
+        "name": "ירדן",
+        "total_searches": 154000,
+        "categories": {
+          "daily_life": 77000,
+          "sports": 68000,
+          "culture": 0,
+          "security": 140,
+          "economy": 0,
+          "tech": 3000,
+          "other": 5860
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11350,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11100,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10950,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10850,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10600,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "YE": {
+        "name": "תימן",
+        "total_searches": 140000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 125000,
+          "culture": 0,
+          "security": 120,
+          "economy": 0,
+          "tech": 0,
+          "other": 14880
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 8750,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 5250,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 5050,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 4400,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2050,
+            "category": "sports"
+          }
+        ]
+      },
+      "SY": {
+        "name": "סוריה",
+        "total_searches": 132000,
+        "categories": {
+          "daily_life": 7550,
+          "sports": 105000,
+          "culture": 1010,
+          "security": 160,
+          "economy": 0,
+          "tech": 0,
+          "other": 18280
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 4650,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 4400,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2150,
+            "category": "sports"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 1850,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 1750,
+            "category": "sports"
+          }
+        ]
+      },
+      "IL": {
+        "name": "ישראל",
+        "total_searches": 129000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 31000,
+          "culture": 4500,
+          "security": 380,
+          "economy": 0,
+          "tech": 10100,
+          "other": 83020
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Caroline Leavitt",
+            "translation": "קרוליין לוויט",
+            "volume": 2200,
+            "category": "other"
+          },
+          {
+            "query": "Kurds",
+            "translation": "כורדים",
+            "volume": 2150,
+            "category": "other"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 2050,
+            "category": "other"
+          },
+          {
+            "query": "new love",
+            "translation": "אהבה חדשה",
+            "volume": 1950,
+            "category": "other"
+          },
+          {
+            "query": "Maccabi Tel Aviv",
+            "translation": "מכבי תל אביב",
+            "volume": 1700,
+            "category": "sports"
+          }
+        ]
+      },
+      "PS": {
+        "name": "פלסטין",
+        "total_searches": 107000,
+        "categories": {
+          "daily_life": 14100,
+          "sports": 76000,
+          "culture": 0,
+          "security": 160,
+          "economy": 0,
+          "tech": 10400,
+          "other": 6340
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5650,
+            "category": "daily_life"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5250,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 2150,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2000,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 1900,
+            "category": "sports"
+          }
+        ]
+      },
+      "LB": {
+        "name": "לבנון",
+        "total_searches": 54500,
+        "categories": {
+          "daily_life": 0,
+          "sports": 30200,
+          "culture": 890,
+          "security": 90,
+          "economy": 0,
+          "tech": 3900,
+          "other": 19420
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2100,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2000,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 1900,
+            "category": "other"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 1000,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 950,
+            "category": "sports"
+          }
+        ]
+      },
+      "IR": {
+        "name": "איראן",
+        "total_searches": 12600,
+        "categories": {
+          "daily_life": 0,
+          "sports": 2000,
+          "culture": 0,
+          "security": 80,
+          "economy": 0,
+          "tech": 0,
+          "other": 10520
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1950,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1880,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1780,
+            "category": "other"
+          },
+          {
+            "query": "Brighton vs Arsenal",
+            "translation": "",
+            "volume": 530,
+            "category": "sports"
+          },
+          {
+            "query": "yak 130",
+            "translation": "",
+            "volume": 200,
+            "category": "other"
+          }
+        ]
+      }
+    },
+    "2026-02-26": {
+      "TR": {
+        "name": "טורקיה",
+        "total_searches": 1788000,
+        "categories": {
+          "daily_life": 852000,
+          "sports": 117000,
+          "culture": 388000,
+          "security": 300,
+          "economy": 13100,
+          "tech": 4800,
+          "other": 412800
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Iftar Hour",
+            "translation": "iftar saati",
+            "volume": 110000,
+            "category": "daily_life"
+          },
+          {
+            "query": "atv live",
+            "translation": "atv canlı",
+            "volume": 104000,
+            "category": "culture"
+          },
+          {
+            "query": "Adana iftar time",
+            "translation": "adana iftar vakti",
+            "volume": 93000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Batman iftar time",
+            "translation": "batman iftar vakti",
+            "volume": 92000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Galatasaray vs Besiktas",
+            "translation": "Galatasaray Beşiktaş",
+            "volume": 25000,
+            "category": "sports"
+          }
+        ]
+      },
+      "IQ": {
+        "name": "עיראק",
+        "total_searches": 1600000,
+        "categories": {
+          "daily_life": 832000,
+          "sports": 650000,
+          "culture": 0,
+          "security": 320,
+          "economy": 4100,
+          "tech": 28200,
+          "other": 85380
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 296000,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 204000,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 149000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 127000,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 107000,
+            "category": "sports"
+          }
+        ]
+      },
+      "CY": {
+        "name": "קפריסין",
+        "total_searches": 295000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 155000,
+          "culture": 12400,
+          "security": 130,
+          "economy": 0,
+          "tech": 74200,
+          "other": 53270
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 6250,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 5100,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 4950,
+            "category": "sports"
+          },
+          {
+            "query": "South Africa vs New Zealand",
+            "translation": "",
+            "volume": 3150,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2450,
+            "category": "sports"
+          }
+        ]
+      },
+      "EG": {
+        "name": "מצרים",
+        "total_searches": 215000,
+        "categories": {
+          "daily_life": 3500,
+          "sports": 134000,
+          "culture": 22500,
+          "security": 280,
+          "economy": 5450,
+          "tech": 3150,
+          "other": 46120
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al Ahly",
+            "translation": "الأهلي",
+            "volume": 11200,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5350,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5050,
+            "category": "sports"
+          },
+          {
+            "query": "Mohamed Salah",
+            "translation": "محمد صلاح",
+            "volume": 3100,
+            "category": "sports"
+          },
+          {
+            "query": "Zamalek",
+            "translation": "الزمالك",
+            "volume": 2850,
+            "category": "sports"
+          }
+        ]
+      },
+      "AE": {
+        "name": "איחוד האמירויות",
+        "total_searches": 187000,
+        "categories": {
+          "daily_life": 2400,
+          "sports": 86500,
+          "culture": 0,
+          "security": 180,
+          "economy": 2150,
+          "tech": 8100,
+          "other": 87670
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5600,
+            "category": "sports"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5500,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 5200,
+            "category": "other"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5100,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 4700,
+            "category": "other"
+          }
+        ]
+      },
+      "SA": {
+        "name": "סעודיה",
+        "total_searches": 156000,
+        "categories": {
+          "daily_life": 480,
+          "sports": 78500,
+          "culture": 530,
+          "security": 220,
+          "economy": 530,
+          "tech": 7350,
+          "other": 68390
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5500,
+            "category": "other"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5100,
+            "category": "other"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 2200,
+            "category": "sports"
+          },
+          {
+            "query": "Al Hilal",
+            "translation": "الهلال",
+            "volume": 2050,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle vs Man United",
+            "translation": "",
+            "volume": 1950,
+            "category": "sports"
+          }
+        ]
+      },
+      "JO": {
+        "name": "ירדן",
+        "total_searches": 155000,
+        "categories": {
+          "daily_life": 77500,
+          "sports": 68500,
+          "culture": 0,
+          "security": 170,
+          "economy": 0,
+          "tech": 3100,
+          "other": 5730
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11400,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11150,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10900,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10650,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "YE": {
+        "name": "תימן",
+        "total_searches": 143000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 128000,
+          "culture": 0,
+          "security": 130,
+          "economy": 0,
+          "tech": 0,
+          "other": 14870
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 8850,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 5350,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 5150,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 4550,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2150,
+            "category": "sports"
+          }
+        ]
+      },
+      "SY": {
+        "name": "סוריה",
+        "total_searches": 133000,
+        "categories": {
+          "daily_life": 7700,
+          "sports": 106000,
+          "culture": 1020,
+          "security": 190,
+          "economy": 0,
+          "tech": 0,
+          "other": 18090
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 4750,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 4550,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2250,
+            "category": "sports"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 1850,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 1800,
+            "category": "sports"
+          }
+        ]
+      },
+      "IL": {
+        "name": "ישראל",
+        "total_searches": 131000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 31500,
+          "culture": 4600,
+          "security": 450,
+          "economy": 0,
+          "tech": 10300,
+          "other": 84150
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Kurds",
+            "translation": "כורדים",
+            "volume": 2300,
+            "category": "other"
+          },
+          {
+            "query": "Caroline Leavitt",
+            "translation": "קרוליין לוויט",
+            "volume": 2200,
+            "category": "other"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 2100,
+            "category": "other"
+          },
+          {
+            "query": "new love",
+            "translation": "אהבה חדשה",
+            "volume": 2000,
+            "category": "other"
+          },
+          {
+            "query": "Hapoel Beer Sheva",
+            "translation": "הפועל באר שבע",
+            "volume": 1800,
+            "category": "sports"
+          }
+        ]
+      },
+      "PS": {
+        "name": "פלסטין",
+        "total_searches": 110000,
+        "categories": {
+          "daily_life": 14300,
+          "sports": 78000,
+          "culture": 0,
+          "security": 170,
+          "economy": 0,
+          "tech": 10700,
+          "other": 6830
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5700,
+            "category": "daily_life"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5300,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 2200,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2100,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2000,
+            "category": "sports"
+          }
+        ]
+      },
+      "LB": {
+        "name": "לבנון",
+        "total_searches": 55500,
+        "categories": {
+          "daily_life": 0,
+          "sports": 31000,
+          "culture": 900,
+          "security": 120,
+          "economy": 0,
+          "tech": 4000,
+          "other": 19480
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2200,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2100,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2000,
+            "category": "other"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 1050,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 1000,
+            "category": "sports"
+          }
+        ]
+      },
+      "IR": {
+        "name": "איראן",
+        "total_searches": 12900,
+        "categories": {
+          "daily_life": 0,
+          "sports": 2080,
+          "culture": 0,
+          "security": 110,
+          "economy": 0,
+          "tech": 0,
+          "other": 10710
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 2000,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1900,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1800,
+            "category": "other"
+          },
+          {
+            "query": "Brighton vs Arsenal",
+            "translation": "",
+            "volume": 545,
+            "category": "sports"
+          },
+          {
+            "query": "yak 130",
+            "translation": "",
+            "volume": 210,
+            "category": "other"
+          }
+        ]
+      }
+    },
+    "2026-02-27": {
+      "TR": {
+        "name": "טורקיה",
+        "total_searches": 1785000,
+        "categories": {
+          "daily_life": 850000,
+          "sports": 116000,
+          "culture": 386000,
+          "security": 350,
+          "economy": 13200,
+          "tech": 4850,
+          "other": 414600
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Iftar Hour",
+            "translation": "iftar saati",
+            "volume": 111500,
+            "category": "daily_life"
+          },
+          {
+            "query": "atv live",
+            "translation": "atv canlı",
+            "volume": 105000,
+            "category": "culture"
+          },
+          {
+            "query": "Batman iftar time",
+            "translation": "batman iftar vakti",
+            "volume": 94500,
+            "category": "daily_life"
+          },
+          {
+            "query": "Adana iftar time",
+            "translation": "adana iftar vakti",
+            "volume": 93500,
+            "category": "daily_life"
+          },
+          {
+            "query": "Galatasaray",
+            "translation": "Galatasaray",
+            "volume": 26500,
+            "category": "sports"
+          }
+        ]
+      },
+      "IQ": {
+        "name": "עיראק",
+        "total_searches": 1595000,
+        "categories": {
+          "daily_life": 830000,
+          "sports": 645000,
+          "culture": 0,
+          "security": 400,
+          "economy": 4050,
+          "tech": 27800,
+          "other": 87750
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 297000,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 206000,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 151000,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 126000,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 107000,
+            "category": "sports"
+          }
+        ]
+      },
+      "CY": {
+        "name": "קפריסין",
+        "total_searches": 292000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 153500,
+          "culture": 12300,
+          "security": 140,
+          "economy": 0,
+          "tech": 73800,
+          "other": 52260
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 6280,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 5080,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 4980,
+            "category": "sports"
+          },
+          {
+            "query": "South Africa vs New Zealand",
+            "translation": "",
+            "volume": 3180,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2420,
+            "category": "sports"
+          }
+        ]
+      },
+      "EG": {
+        "name": "מצרים",
+        "total_searches": 211000,
+        "categories": {
+          "daily_life": 3380,
+          "sports": 130000,
+          "culture": 21800,
+          "security": 350,
+          "economy": 5250,
+          "tech": 3000,
+          "other": 47220
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "English Premier League",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5450,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5100,
+            "category": "sports"
+          },
+          {
+            "query": "Mohamed Salah",
+            "translation": "محمد صلاح",
+            "volume": 3050,
+            "category": "sports"
+          },
+          {
+            "query": "Al Ahly",
+            "translation": "الأهلي",
+            "volume": 2900,
+            "category": "sports"
+          },
+          {
+            "query": "Zamalek",
+            "translation": "الزمالك",
+            "volume": 2750,
+            "category": "sports"
+          }
+        ]
+      },
+      "AE": {
+        "name": "איחוד האמירויות",
+        "total_searches": 185500,
+        "categories": {
+          "daily_life": 2350,
+          "sports": 85000,
+          "culture": 0,
+          "security": 200,
+          "economy": 2100,
+          "tech": 7950,
+          "other": 88000
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5580,
+            "category": "sports"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5480,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 5180,
+            "category": "other"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5080,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 4680,
+            "category": "other"
+          }
+        ]
+      },
+      "SA": {
+        "name": "סעודיה",
+        "total_searches": 154500,
+        "categories": {
+          "daily_life": 460,
+          "sports": 77800,
+          "culture": 510,
+          "security": 250,
+          "economy": 510,
+          "tech": 7280,
+          "other": 67690
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5450,
+            "category": "other"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5050,
+            "category": "other"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 2180,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle vs Man United",
+            "translation": "",
+            "volume": 1950,
+            "category": "sports"
+          },
+          {
+            "query": "Al Hilal",
+            "translation": "الهلال",
+            "volume": 1900,
+            "category": "sports"
+          }
+        ]
+      },
+      "JO": {
+        "name": "ירדן",
+        "total_searches": 153500,
+        "categories": {
+          "daily_life": 76800,
+          "sports": 67800,
+          "culture": 0,
+          "security": 200,
+          "economy": 0,
+          "tech": 3050,
+          "other": 5650
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11280,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11080,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10920,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10780,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10520,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "YE": {
+        "name": "תימן",
+        "total_searches": 141500,
+        "categories": {
+          "daily_life": 0,
+          "sports": 126500,
+          "culture": 0,
+          "security": 150,
+          "economy": 0,
+          "tech": 0,
+          "other": 14850
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 8780,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 5280,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 5100,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 4480,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2080,
+            "category": "sports"
+          }
+        ]
+      },
+      "SY": {
+        "name": "סוריה",
+        "total_searches": 131500,
+        "categories": {
+          "daily_life": 7600,
+          "sports": 104500,
+          "culture": 1010,
+          "security": 220,
+          "economy": 0,
+          "tech": 0,
+          "other": 18170
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 4680,
+            "category": "sports"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 4480,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2200,
+            "category": "sports"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 1820,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 1780,
+            "category": "sports"
+          }
+        ]
+      },
+      "IL": {
+        "name": "ישראל",
+        "total_searches": 130000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 31000,
+          "culture": 4550,
+          "security": 500,
+          "economy": 0,
+          "tech": 10150,
+          "other": 83800
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Kurds",
+            "translation": "כורדים",
+            "volume": 2280,
+            "category": "other"
+          },
+          {
+            "query": "Caroline Leavitt",
+            "translation": "קרוליין לוויט",
+            "volume": 2180,
+            "category": "other"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 2080,
+            "category": "other"
+          },
+          {
+            "query": "new love",
+            "translation": "אהבה חדשה",
+            "volume": 1980,
+            "category": "other"
+          },
+          {
+            "query": "Hapoel Beer Sheva",
+            "translation": "הפועל באר שבע",
+            "volume": 1780,
+            "category": "sports"
+          }
+        ]
+      },
+      "PS": {
+        "name": "פלסטין",
+        "total_searches": 108500,
+        "categories": {
+          "daily_life": 14100,
+          "sports": 77000,
+          "culture": 0,
+          "security": 180,
+          "economy": 0,
+          "tech": 10500,
+          "other": 6720
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5680,
+            "category": "daily_life"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5280,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 2180,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 2080,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 1980,
+            "category": "sports"
+          }
+        ]
+      },
+      "LB": {
+        "name": "לבנון",
+        "total_searches": 55000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 30500,
+          "culture": 880,
+          "security": 130,
+          "economy": 0,
+          "tech": 3950,
+          "other": 19540
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2180,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2080,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 1980,
+            "category": "other"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 1020,
+            "category": "sports"
+          },
+          {
+            "query": "Liverpool vs Arsenal",
+            "translation": "ليفربول ضد آرسنال",
+            "volume": 980,
+            "category": "sports"
+          }
+        ]
+      },
+      "IR": {
+        "name": "איראן",
+        "total_searches": 12500,
+        "categories": {
+          "daily_life": 0,
+          "sports": 2000,
+          "culture": 0,
+          "security": 120,
+          "economy": 0,
+          "tech": 0,
+          "other": 10380
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1980,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1880,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1780,
+            "category": "other"
+          },
+          {
+            "query": "Brighton vs Arsenal",
+            "translation": "",
+            "volume": 535,
+            "category": "sports"
+          },
+          {
+            "query": "yak 130",
+            "translation": "",
+            "volume": 205,
+            "category": "other"
+          }
+        ]
+      }
+    },
+    "2026-02-28": {
+      "TR": {
+        "name": "טורקיה",
+        "total_searches": 1825000,
+        "categories": {
+          "daily_life": 842000,
+          "sports": 121000,
+          "culture": 395000,
+          "security": 8500,
+          "economy": 13145,
+          "tech": 4759,
+          "other": 440596
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Iftar Hour",
+            "translation": "iftar saati",
+            "volume": 110734,
+            "category": "daily_life"
+          },
+          {
+            "query": "atv live",
+            "translation": "atv canlı",
+            "volume": 107256,
+            "category": "culture"
+          },
+          {
+            "query": "Batman iftar time",
+            "translation": "batman iftar vakti",
+            "volume": 104025,
+            "category": "daily_life"
+          },
+          {
+            "query": "Adana iftar time",
+            "translation": "adana iftar vakti",
+            "volume": 95013,
+            "category": "daily_life"
+          },
+          {
+            "query": "Israel Iran attack",
+            "translation": "İsrail İran saldırı",
+            "volume": 8500,
+            "category": "security"
+          }
+        ]
+      },
+      "IQ": {
+        "name": "עיראק",
+        "total_searches": 1641000,
+        "categories": {
+          "daily_life": 838000,
+          "sports": 669000,
+          "culture": 0,
+          "security": 12000,
+          "economy": 4083,
+          "tech": 28429,
+          "other": 89488
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 301386,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 209149,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 154040,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona vs Atletico Madrid",
+            "translation": "مباراه برشلونه واتلتيكو مدريد",
+            "volume": 133900,
+            "category": "sports"
+          },
+          {
+            "query": "war Iran Israel",
+            "translation": "حرب ايران اسرائيل",
+            "volume": 12000,
+            "category": "security"
+          }
+        ]
+      },
+      "CY": {
+        "name": "קפריסין",
+        "total_searches": 298000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 155000,
+          "culture": 12600,
+          "security": 4200,
+          "economy": 0,
+          "tech": 74700,
+          "other": 51500
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 6361,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 5200,
+            "category": "sports"
+          },
+          {
+            "query": "Middle East war",
+            "translation": "",
+            "volume": 4200,
+            "category": "security"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 5055,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 4558,
+            "category": "sports"
+          }
+        ]
+      },
+      "EG": {
+        "name": "מצרים",
+        "total_searches": 217000,
+        "categories": {
+          "daily_life": 3471,
+          "sports": 134000,
+          "culture": 22619,
+          "security": 9500,
+          "economy": 5501,
+          "tech": 3173,
+          "other": 38736
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 10579,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5420,
+            "category": "sports"
+          },
+          {
+            "query": "Iran Israel war",
+            "translation": "حرب ايران اسرائيل",
+            "volume": 9500,
+            "category": "security"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 5255,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 4890,
+            "category": "sports"
+          }
+        ]
+      },
+      "AE": {
+        "name": "איחוד האמירויות",
+        "total_searches": 187000,
+        "categories": {
+          "daily_life": 2400,
+          "sports": 86000,
+          "culture": 0,
+          "security": 8000,
+          "economy": 2113,
+          "tech": 8013,
+          "other": 80474
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5665,
+            "category": "sports"
+          },
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 8000,
+            "category": "security"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5559,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 5295,
+            "category": "other"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5186,
+            "category": "sports"
+          }
+        ]
+      },
+      "SA": {
+        "name": "סעודיה",
+        "total_searches": 155000,
+        "categories": {
+          "daily_life": 459,
+          "sports": 78000,
+          "culture": 516,
+          "security": 10500,
+          "economy": 524,
+          "tech": 7353,
+          "other": 57648
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5498,
+            "category": "other"
+          },
+          {
+            "query": "Iran attack",
+            "translation": "هجوم ايران",
+            "volume": 10500,
+            "category": "security"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 2217,
+            "category": "sports"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5036,
+            "category": "other"
+          },
+          {
+            "query": "Newcastle vs Man United",
+            "translation": "",
+            "volume": 1924,
+            "category": "sports"
+          }
+        ]
+      },
+      "JO": {
+        "name": "ירדן",
+        "total_searches": 156000,
+        "categories": {
+          "daily_life": 76927,
+          "sports": 69000,
+          "culture": 0,
+          "security": 6800,
+          "economy": 0,
+          "tech": 3079,
+          "other": 150
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11382,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11347,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11049,
+            "category": "daily_life"
+          },
+          {
+            "query": "Iran Israel attack",
+            "translation": "هجوم ايران اسرائيل",
+            "volume": 6800,
+            "category": "security"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10995,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "YE": {
+        "name": "תימן",
+        "total_searches": 144000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 128000,
+          "culture": 0,
+          "security": 5500,
+          "economy": 0,
+          "tech": 0,
+          "other": 10500
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 8856,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 5377,
+            "category": "sports"
+          },
+          {
+            "query": "war news",
+            "translation": "اخبار الحرب",
+            "volume": 5500,
+            "category": "security"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 5194,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 4577,
+            "category": "sports"
+          }
+        ]
+      },
+      "SY": {
+        "name": "סוריה",
+        "total_searches": 133000,
+        "categories": {
+          "daily_life": 7619,
+          "sports": 104000,
+          "culture": 1017,
+          "security": 7200,
+          "economy": 0,
+          "tech": 0,
+          "other": 13164
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 4722,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 4603,
+            "category": "sports"
+          },
+          {
+            "query": "Iran Israel war",
+            "translation": "حرب ايران اسرائيل",
+            "volume": 7200,
+            "category": "security"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 2292,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 2152,
+            "category": "sports"
+          }
+        ]
+      },
+      "IL": {
+        "name": "ישראל",
+        "total_searches": 132000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 31000,
+          "culture": 4581,
+          "security": 20800,
+          "economy": 0,
+          "tech": 10349,
+          "other": 65270
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Iran attack",
+            "translation": "מתקפה איראנית",
+            "volume": 20800,
+            "category": "security"
+          },
+          {
+            "query": "Kurds",
+            "translation": "כורדים",
+            "volume": 2291,
+            "category": "other"
+          },
+          {
+            "query": "Caroline Leavitt",
+            "translation": "קרוליין לוויט",
+            "volume": 2212,
+            "category": "other"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 2201,
+            "category": "other"
+          },
+          {
+            "query": "Home Front Command",
+            "translation": "פיקוד העורף",
+            "volume": 5000,
+            "category": "security"
+          }
+        ]
+      },
+      "PS": {
+        "name": "פלסטין",
+        "total_searches": 110000,
+        "categories": {
+          "daily_life": 14432,
+          "sports": 79000,
+          "culture": 0,
+          "security": 7500,
+          "economy": 0,
+          "tech": 10656,
+          "other": 0
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5718,
+            "category": "daily_life"
+          },
+          {
+            "query": "war Iran",
+            "translation": "حرب ايران",
+            "volume": 7500,
+            "category": "security"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5304,
+            "category": "daily_life"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 2298,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 2275,
+            "category": "sports"
+          }
+        ]
+      },
+      "LB": {
+        "name": "לבנון",
+        "total_searches": 56000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 31000,
+          "culture": 897,
+          "security": 5200,
+          "economy": 0,
+          "tech": 3985,
+          "other": 14918
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2248,
+            "category": "other"
+          },
+          {
+            "query": "Iran war Lebanon",
+            "translation": "حرب ايران لبنان",
+            "volume": 5200,
+            "category": "security"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2157,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2089,
+            "category": "other"
+          },
+          {
+            "query": "Newcastle vs Man United",
+            "translation": "",
+            "volume": 1083,
+            "category": "sports"
+          }
+        ]
+      },
+      "IR": {
+        "name": "איראן",
+        "total_searches": 12280,
+        "categories": {
+          "daily_life": 0,
+          "sports": 2018,
+          "culture": 0,
+          "security": 2400,
+          "economy": 0,
+          "tech": 0,
+          "other": 7862
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 2066,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 2016,
+            "category": "other"
+          },
+          {
+            "query": "war alert",
+            "translation": "هشدار جنگ",
+            "volume": 2400,
+            "category": "security"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1882,
+            "category": "other"
+          },
+          {
+            "query": "Brighton vs Arsenal",
+            "translation": "",
+            "volume": 555,
+            "category": "sports"
+          }
+        ]
+      }
+    },
+    "2026-03-01": {
+      "TR": {
+        "name": "טורקיה",
+        "total_searches": 1649000,
+        "categories": {
+          "daily_life": 813000,
+          "sports": 112000,
+          "culture": 350000,
+          "security": 11000,
+          "economy": 12103,
+          "tech": 5567,
+          "other": 345330
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Iftar Hour",
+            "translation": "iftar saati",
+            "volume": 114254,
+            "category": "daily_life"
+          },
+          {
+            "query": "Iran Israel war",
+            "translation": "İsrail İran savaş",
+            "volume": 11000,
+            "category": "security"
+          },
+          {
+            "query": "atv live",
+            "translation": "atv canlı",
+            "volume": 108120,
+            "category": "culture"
+          },
+          {
+            "query": "Batman iftar time",
+            "translation": "batman iftar vakti",
+            "volume": 103517,
+            "category": "daily_life"
+          },
+          {
+            "query": "Adana iftar time",
+            "translation": "adana iftar vakti",
+            "volume": 99743,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "IQ": {
+        "name": "עיראק",
+        "total_searches": 654000,
+        "categories": {
+          "daily_life": 334000,
+          "sports": 271000,
+          "culture": 0,
+          "security": 15000,
+          "economy": 1670,
+          "tech": 14404,
+          "other": 17926
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 111300,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 102169,
+            "category": "daily_life"
+          },
+          {
+            "query": "Iran Israel war",
+            "translation": "حرب ايران اسرائيل",
+            "volume": 15000,
+            "category": "security"
+          },
+          {
+            "query": "Barcelona vs Atletico Madrid",
+            "translation": "مباراه برشلونه واتلتيكو مدريد",
+            "volume": 48829,
+            "category": "sports"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 49320,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "CY": {
+        "name": "קפריסין",
+        "total_searches": 108000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 54000,
+          "culture": 5500,
+          "security": 5800,
+          "economy": 0,
+          "tech": 21841,
+          "other": 20859
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Middle East war",
+            "translation": "",
+            "volume": 5800,
+            "category": "security"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2259,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2064,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2053,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 1914,
+            "category": "sports"
+          }
+        ]
+      },
+      "EG": {
+        "name": "מצרים",
+        "total_searches": 204000,
+        "categories": {
+          "daily_life": 3224,
+          "sports": 107000,
+          "culture": 25947,
+          "security": 12500,
+          "economy": 5556,
+          "tech": 2963,
+          "other": 46810
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran attack latest",
+            "translation": "آخر أخبار هجوم ايران",
+            "volume": 12500,
+            "category": "security"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 11157,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5447,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 5688,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 4956,
+            "category": "sports"
+          }
+        ]
+      },
+      "AE": {
+        "name": "איחוד האמירויות",
+        "total_searches": 188000,
+        "categories": {
+          "daily_life": 1925,
+          "sports": 94000,
+          "culture": 0,
+          "security": 9200,
+          "economy": 2210,
+          "tech": 7581,
+          "other": 73084
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran war latest",
+            "translation": "آخر أخبار الحرب",
+            "volume": 9200,
+            "category": "security"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5034,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 4995,
+            "category": "other"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 4667,
+            "category": "other"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 4660,
+            "category": "sports"
+          }
+        ]
+      },
+      "SA": {
+        "name": "סעודיה",
+        "total_searches": 148000,
+        "categories": {
+          "daily_life": 450,
+          "sports": 78000,
+          "culture": 630,
+          "security": 12300,
+          "economy": 513,
+          "tech": 7874,
+          "other": 48233
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 12300,
+            "category": "security"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 4991,
+            "category": "other"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 4946,
+            "category": "other"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 2282,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle vs Man United",
+            "translation": "",
+            "volume": 2164,
+            "category": "sports"
+          }
+        ]
+      },
+      "JO": {
+        "name": "ירדן",
+        "total_searches": 446000,
+        "categories": {
+          "daily_life": 252000,
+          "sports": 171000,
+          "culture": 0,
+          "security": 9500,
+          "economy": 0,
+          "tech": 8489,
+          "other": 5011
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 34447,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 33818,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 29349,
+            "category": "daily_life"
+          },
+          {
+            "query": "Iran Israel war",
+            "translation": "حرب ايران اسرائيل",
+            "volume": 9500,
+            "category": "security"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 28916,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "YE": {
+        "name": "תימן",
+        "total_searches": 129000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 116000,
+          "culture": 0,
+          "security": 6800,
+          "economy": 0,
+          "tech": 0,
+          "other": 6200
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 9747,
+            "category": "sports"
+          },
+          {
+            "query": "war Iran Israel",
+            "translation": "حرب ايران اسرائيل",
+            "volume": 6800,
+            "category": "security"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 5468,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 5427,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 4720,
+            "category": "sports"
+          }
+        ]
+      },
+      "SY": {
+        "name": "סוריה",
+        "total_searches": 125000,
+        "categories": {
+          "daily_life": 6781,
+          "sports": 96000,
+          "culture": 915,
+          "security": 9800,
+          "economy": 0,
+          "tech": 0,
+          "other": 11504
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 9800,
+            "category": "security"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 5678,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 4511,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 2219,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 2054,
+            "category": "sports"
+          }
+        ]
+      },
+      "IL": {
+        "name": "ישראל",
+        "total_searches": 140000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 32000,
+          "culture": 4920,
+          "security": 16700,
+          "economy": 0,
+          "tech": 11285,
+          "other": 75095
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Iran missiles",
+            "translation": "טילים מאיראן",
+            "volume": 16700,
+            "category": "security"
+          },
+          {
+            "query": "new love",
+            "translation": "אהבה חדשה",
+            "volume": 2297,
+            "category": "other"
+          },
+          {
+            "query": "Caroline Leavitt",
+            "translation": "קרוליין לוויט",
+            "volume": 2115,
+            "category": "other"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 2062,
+            "category": "other"
+          },
+          {
+            "query": "Home Front Command",
+            "translation": "פיקוד העורף",
+            "volume": 8000,
+            "category": "security"
+          }
+        ]
+      },
+      "PS": {
+        "name": "פלסטין",
+        "total_searches": 23000,
+        "categories": {
+          "daily_life": 3360,
+          "sports": 16000,
+          "culture": 0,
+          "security": 8200,
+          "economy": 0,
+          "tech": 1688,
+          "other": 0
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "war Iran",
+            "translation": "حرب ايران",
+            "volume": 8200,
+            "category": "security"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 945,
+            "category": "daily_life"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 784,
+            "category": "daily_life"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 547,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 507,
+            "category": "sports"
+          }
+        ]
+      },
+      "LB": {
+        "name": "לבנון",
+        "total_searches": 66000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 39000,
+          "culture": 929,
+          "security": 7500,
+          "economy": 0,
+          "tech": 3916,
+          "other": 14655
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran war Lebanon",
+            "translation": "حرب ايران لبنان",
+            "volume": 7500,
+            "category": "security"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2254,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2170,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2143,
+            "category": "other"
+          },
+          {
+            "query": "Newcastle vs Man United",
+            "translation": "",
+            "volume": 1143,
+            "category": "sports"
+          }
+        ]
+      },
+      "IR": {
+        "name": "איראן",
+        "total_searches": 11929,
+        "categories": {
+          "daily_life": 0,
+          "sports": 2013,
+          "culture": 0,
+          "security": 3200,
+          "economy": 0,
+          "tech": 0,
+          "other": 6716
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "war alert",
+            "translation": "هشدار جنگ",
+            "volume": 3200,
+            "category": "security"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1658,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1648,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 1604,
+            "category": "other"
+          },
+          {
+            "query": "Brighton vs Arsenal",
+            "translation": "",
+            "volume": 418,
+            "category": "sports"
+          }
+        ]
+      }
+    },
+    "2026-03-02": {
+      "TR": {
+        "name": "טורקיה",
+        "total_searches": 1751000,
+        "categories": {
+          "daily_life": 790000,
+          "sports": 116000,
+          "culture": 369000,
+          "security": 9800,
+          "economy": 11878,
+          "tech": 5256,
+          "other": 449066
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "atv live",
+            "translation": "atv canlı",
+            "volume": 114353,
+            "category": "culture"
+          },
+          {
+            "query": "Iftar Hour",
+            "translation": "iftar saati",
+            "volume": 111609,
+            "category": "daily_life"
+          },
+          {
+            "query": "Iran war update",
+            "translation": "İran savaş güncelleme",
+            "volume": 9800,
+            "category": "security"
+          },
+          {
+            "query": "Adana iftar time",
+            "translation": "adana iftar vakti",
+            "volume": 108350,
+            "category": "daily_life"
+          },
+          {
+            "query": "Batman iftar time",
+            "translation": "batman iftar vakti",
+            "volume": 108118,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "IQ": {
+        "name": "עיראק",
+        "total_searches": 607000,
+        "categories": {
+          "daily_life": 318000,
+          "sports": 242000,
+          "culture": 0,
+          "security": 13500,
+          "economy": 1695,
+          "tech": 14480,
+          "other": 17325
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 105684,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 85074,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 55275,
+            "category": "daily_life"
+          },
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 13500,
+            "category": "security"
+          },
+          {
+            "query": "Barcelona vs Atletico Madrid",
+            "translation": "مباراه برشلونه واتلتيكو مدريد",
+            "volume": 50777,
+            "category": "sports"
+          }
+        ]
+      },
+      "CY": {
+        "name": "קפריסין",
+        "total_searches": 127000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 66000,
+          "culture": 5400,
+          "security": 4800,
+          "economy": 0,
+          "tech": 24822,
+          "other": 25978
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Middle East war",
+            "translation": "",
+            "volume": 4800,
+            "category": "security"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2210,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2184,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2102,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 1828,
+            "category": "sports"
+          }
+        ]
+      },
+      "EG": {
+        "name": "מצרים",
+        "total_searches": 201000,
+        "categories": {
+          "daily_life": 3767,
+          "sports": 121000,
+          "culture": 20536,
+          "security": 10200,
+          "economy": 5857,
+          "tech": 2852,
+          "other": 36788
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 10200,
+            "category": "security"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 9849,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 5692,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5564,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5075,
+            "category": "sports"
+          }
+        ]
+      },
+      "AE": {
+        "name": "איחוד האמירויות",
+        "total_searches": 181000,
+        "categories": {
+          "daily_life": 2455,
+          "sports": 91000,
+          "culture": 0,
+          "security": 7500,
+          "economy": 2019,
+          "tech": 7715,
+          "other": 70311
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "آخر أخبار الحرب",
+            "volume": 7500,
+            "category": "security"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5396,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 5378,
+            "category": "other"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 4992,
+            "category": "sports"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 4756,
+            "category": "sports"
+          }
+        ]
+      },
+      "SA": {
+        "name": "סעודיה",
+        "total_searches": 141000,
+        "categories": {
+          "daily_life": 433,
+          "sports": 70000,
+          "culture": 551,
+          "security": 12800,
+          "economy": 585,
+          "tech": 6599,
+          "other": 50032
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 12800,
+            "category": "security"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 4608,
+            "category": "other"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 4456,
+            "category": "other"
+          },
+          {
+            "query": "Newcastle vs Man United",
+            "translation": "",
+            "volume": 2273,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 2268,
+            "category": "sports"
+          }
+        ]
+      },
+      "JO": {
+        "name": "ירדן",
+        "total_searches": 165000,
+        "categories": {
+          "daily_life": 85078,
+          "sports": 70000,
+          "culture": 0,
+          "security": 7500,
+          "economy": 0,
+          "tech": 2727,
+          "other": 0
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11307,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11085,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10660,
+            "category": "daily_life"
+          },
+          {
+            "query": "Iran Israel war",
+            "translation": "حرب ايران اسرائيل",
+            "volume": 7500,
+            "category": "security"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10136,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "YE": {
+        "name": "תימן",
+        "total_searches": 123000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 110000,
+          "culture": 0,
+          "security": 5200,
+          "economy": 0,
+          "tech": 0,
+          "other": 7800
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 9703,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 5485,
+            "category": "sports"
+          },
+          {
+            "query": "war Iran Israel",
+            "translation": "حرب ايران اسرائيل",
+            "volume": 5200,
+            "category": "security"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 5085,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 4340,
+            "category": "sports"
+          }
+        ]
+      },
+      "SY": {
+        "name": "סוריה",
+        "total_searches": 30000,
+        "categories": {
+          "daily_life": 870,
+          "sports": 24000,
+          "culture": 201,
+          "security": 3500,
+          "economy": 0,
+          "tech": 0,
+          "other": 1429
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 3500,
+            "category": "security"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 1286,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 660,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 572,
+            "category": "sports"
+          },
+          {
+            "query": "Aston Villa vs Chelsea",
+            "translation": "أستون فيلا ضد تشيلسي",
+            "volume": 537,
+            "category": "sports"
+          }
+        ]
+      },
+      "IL": {
+        "name": "ישראל",
+        "total_searches": 453000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 104000,
+          "culture": 11250,
+          "security": 53700,
+          "economy": 0,
+          "tech": 24831,
+          "other": 259218
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Iran attack",
+            "translation": "מתקפה איראנית",
+            "volume": 53700,
+            "category": "security"
+          },
+          {
+            "query": "Caroline Leavitt",
+            "translation": "קרוליין לוויט",
+            "volume": 6543,
+            "category": "other"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 6459,
+            "category": "other"
+          },
+          {
+            "query": "Caroline Leavitt",
+            "translation": "קרוליין לוויט",
+            "volume": 6071,
+            "category": "other"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 4792,
+            "category": "other"
+          }
+        ]
+      },
+      "PS": {
+        "name": "פלסטין",
+        "total_searches": 95000,
+        "categories": {
+          "daily_life": 11941,
+          "sports": 61000,
+          "culture": 0,
+          "security": 9200,
+          "economy": 0,
+          "tech": 14015,
+          "other": 0
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "war Iran",
+            "translation": "حرب ايران",
+            "volume": 9200,
+            "category": "security"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 4908,
+            "category": "daily_life"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 4702,
+            "category": "daily_life"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 2274,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 2247,
+            "category": "sports"
+          }
+        ]
+      },
+      "LB": {
+        "name": "לבנון",
+        "total_searches": 9000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 4400,
+          "culture": 216,
+          "security": 2800,
+          "economy": 0,
+          "tech": 418,
+          "other": 1166
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "war Lebanon",
+            "translation": "حرب لبنان",
+            "volume": 2800,
+            "category": "security"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 495,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 467,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 463,
+            "category": "other"
+          },
+          {
+            "query": "Newcastle vs Man United",
+            "translation": "",
+            "volume": 295,
+            "category": "sports"
+          }
+        ]
+      },
+      "IR": {
+        "name": "איראן",
+        "total_searches": 2947,
+        "categories": {
+          "daily_life": 0,
+          "sports": 493,
+          "culture": 0,
+          "security": 800,
+          "economy": 0,
+          "tech": 0,
+          "other": 1654
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "war",
+            "translation": "جنگ",
+            "volume": 800,
+            "category": "security"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 385,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 374,
+            "category": "other"
+          },
+          {
+            "query": "Mohsen Khamenei",
+            "translation": "مجتبی خامنه ای",
+            "volume": 353,
+            "category": "other"
+          },
+          {
+            "query": "Brighton vs Arsenal",
+            "translation": "",
+            "volume": 103,
+            "category": "sports"
+          }
+        ]
+      }
+    },
+    "2026-03-03": {
+      "TR": {
+        "name": "טורקיה",
+        "total_searches": 1741000,
+        "categories": {
+          "daily_life": 915000,
+          "sports": 102000,
+          "culture": 340000,
+          "security": 7500,
+          "economy": 10905,
+          "tech": 4706,
+          "other": 360889
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Iftar Hour",
+            "translation": "iftar saati",
+            "volume": 113163,
+            "category": "daily_life"
+          },
+          {
+            "query": "atv live",
+            "translation": "atv canlı",
+            "volume": 106471,
+            "category": "culture"
+          },
+          {
+            "query": "Iran war",
+            "translation": "İran savaş",
+            "volume": 7500,
+            "category": "security"
+          },
+          {
+            "query": "Adana iftar time",
+            "translation": "adana iftar vakti",
+            "volume": 101810,
+            "category": "daily_life"
+          },
+          {
+            "query": "Batman iftar time",
+            "translation": "batman iftar vakti",
+            "volume": 98316,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "IQ": {
+        "name": "עיראק",
+        "total_searches": 702000,
+        "categories": {
+          "daily_life": 336000,
+          "sports": 316000,
+          "culture": 0,
+          "security": 11000,
+          "economy": 1758,
+          "tech": 13172,
+          "other": 24070
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 114784,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 108827,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona vs Atletico Madrid",
+            "translation": "مباراه برشلونه واتلتيكو مدريد",
+            "volume": 57417,
+            "category": "sports"
+          },
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 11000,
+            "category": "security"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 55381,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "CY": {
+        "name": "קפריסין",
+        "total_searches": 109000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 54000,
+          "culture": 5000,
+          "security": 3500,
+          "economy": 0,
+          "tech": 19336,
+          "other": 27164
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Middle East war",
+            "translation": "",
+            "volume": 3500,
+            "category": "security"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2237,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2093,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2032,
+            "category": "sports"
+          },
+          {
+            "query": "South Africa vs New Zealand",
+            "translation": "",
+            "volume": 1101,
+            "category": "sports"
+          }
+        ]
+      },
+      "EG": {
+        "name": "מצרים",
+        "total_searches": 588000,
+        "categories": {
+          "daily_life": 9829,
+          "sports": 360000,
+          "culture": 75956,
+          "security": 8200,
+          "economy": 18667,
+          "tech": 8711,
+          "other": 106637
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 29380,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 17322,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 15898,
+            "category": "sports"
+          },
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 8200,
+            "category": "security"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 15716,
+            "category": "sports"
+          }
+        ]
+      },
+      "AE": {
+        "name": "איחוד האמירויות",
+        "total_searches": 185000,
+        "categories": {
+          "daily_life": 2313,
+          "sports": 81000,
+          "culture": 0,
+          "security": 6200,
+          "economy": 2182,
+          "tech": 9066,
+          "other": 84239
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "آخر أخبار الحرب",
+            "volume": 6200,
+            "category": "security"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5618,
+            "category": "sports"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5356,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 5280,
+            "category": "other"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5268,
+            "category": "sports"
+          }
+        ]
+      },
+      "SA": {
+        "name": "סעודיה",
+        "total_searches": 160000,
+        "categories": {
+          "daily_life": 375,
+          "sports": 86000,
+          "culture": 570,
+          "security": 10900,
+          "economy": 514,
+          "tech": 8110,
+          "other": 53531
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 10900,
+            "category": "security"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5445,
+            "category": "other"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 5254,
+            "category": "other"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 2226,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle vs Man United",
+            "translation": "",
+            "volume": 2194,
+            "category": "sports"
+          }
+        ]
+      },
+      "JO": {
+        "name": "ירדן",
+        "total_searches": 26000,
+        "categories": {
+          "daily_life": 14627,
+          "sports": 9000,
+          "culture": 0,
+          "security": 5500,
+          "economy": 0,
+          "tech": 742,
+          "other": 0
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 2971,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 2900,
+            "category": "daily_life"
+          },
+          {
+            "query": "Iran Israel war",
+            "translation": "حرب ايران اسرائيل",
+            "volume": 5500,
+            "category": "security"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 2243,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 1737,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "YE": {
+        "name": "תימן",
+        "total_searches": 139000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 126000,
+          "culture": 0,
+          "security": 4500,
+          "economy": 0,
+          "tech": 0,
+          "other": 8500
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 9477,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 5565,
+            "category": "sports"
+          },
+          {
+            "query": "war Iran",
+            "translation": "حرب ايران",
+            "volume": 4500,
+            "category": "security"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 5412,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 4993,
+            "category": "sports"
+          }
+        ]
+      },
+      "SY": {
+        "name": "סוריה",
+        "total_searches": 138000,
+        "categories": {
+          "daily_life": 7958,
+          "sports": 109000,
+          "culture": 906,
+          "security": 6500,
+          "economy": 0,
+          "tech": 0,
+          "other": 13636
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 5647,
+            "category": "sports"
+          },
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 6500,
+            "category": "security"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 4380,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 2273,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 2225,
+            "category": "sports"
+          }
+        ]
+      },
+      "IL": {
+        "name": "ישראל",
+        "total_searches": 147000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 30000,
+          "culture": 5220,
+          "security": 19800,
+          "economy": 0,
+          "tech": 11051,
+          "other": 80929
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "מלחמה איראן",
+            "volume": 19800,
+            "category": "security"
+          },
+          {
+            "query": "Caroline Leavitt",
+            "translation": "קרוליין לוויט",
+            "volume": 2280,
+            "category": "other"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 2236,
+            "category": "other"
+          },
+          {
+            "query": "new love",
+            "translation": "אהבה חדשה",
+            "volume": 2223,
+            "category": "other"
+          },
+          {
+            "query": "Kurds",
+            "translation": "כורדים",
+            "volume": 2127,
+            "category": "other"
+          }
+        ]
+      },
+      "PS": {
+        "name": "פלסטין",
+        "total_searches": 110000,
+        "categories": {
+          "daily_life": 15171,
+          "sports": 76000,
+          "culture": 0,
+          "security": 7800,
+          "economy": 0,
+          "tech": 11723,
+          "other": 0
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "war Iran",
+            "translation": "حرب ايران",
+            "volume": 7800,
+            "category": "security"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5404,
+            "category": "daily_life"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 4755,
+            "category": "daily_life"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 2256,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 2214,
+            "category": "sports"
+          }
+        ]
+      },
+      "LB": {
+        "name": "לבנון",
+        "total_searches": 62000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 37000,
+          "culture": 921,
+          "security": 5000,
+          "economy": 0,
+          "tech": 3778,
+          "other": 15301
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "war Lebanon",
+            "translation": "حرب لبنان",
+            "volume": 5000,
+            "category": "security"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2155,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2132,
+            "category": "other"
+          },
+          {
+            "query": "Aston Villa vs Chelsea",
+            "translation": "",
+            "volume": 1143,
+            "category": "sports"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 2068,
+            "category": "other"
+          }
+        ]
+      },
+      "IR": {
+        "name": "איראן",
+        "total_searches": 0,
+        "categories": {
+          "daily_life": 0,
+          "sports": 0,
+          "culture": 0,
+          "security": 0,
+          "economy": 0,
+          "tech": 0,
+          "other": 0
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "—",
+            "translation": "—",
+            "volume": 0,
+            "category": "other"
+          },
+          {
+            "query": "—",
+            "translation": "—",
+            "volume": 0,
+            "category": "other"
+          },
+          {
+            "query": "—",
+            "translation": "—",
+            "volume": 0,
+            "category": "other"
+          },
+          {
+            "query": "—",
+            "translation": "—",
+            "volume": 0,
+            "category": "other"
+          },
+          {
+            "query": "—",
+            "translation": "—",
+            "volume": 0,
+            "category": "other"
+          }
+        ]
+      }
+    },
+    "2026-03-04": {
+      "TR": {
+        "name": "טורקיה",
+        "total_searches": 1629000,
+        "categories": {
+          "daily_life": 795000,
+          "sports": 95000,
+          "culture": 327000,
+          "security": 6500,
+          "economy": 11755,
+          "tech": 4553,
+          "other": 389192
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "atv live",
+            "translation": "atv canlı",
+            "volume": 108178,
+            "category": "culture"
+          },
+          {
+            "query": "Batman iftar time",
+            "translation": "batman iftar vakti",
+            "volume": 106438,
+            "category": "daily_life"
+          },
+          {
+            "query": "Iftar Hour",
+            "translation": "iftar saati",
+            "volume": 103808,
+            "category": "daily_life"
+          },
+          {
+            "query": "Iran war",
+            "translation": "İran savaş",
+            "volume": 6500,
+            "category": "security"
+          },
+          {
+            "query": "Adana iftar time",
+            "translation": "adana iftar vakti",
+            "volume": 98236,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "IQ": {
+        "name": "עיראק",
+        "total_searches": 688000,
+        "categories": {
+          "daily_life": 336000,
+          "sports": 300000,
+          "culture": 0,
+          "security": 9500,
+          "economy": 1608,
+          "tech": 11887,
+          "other": 29005
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 106038,
+            "category": "daily_life"
+          },
+          {
+            "query": "the weather",
+            "translation": "الطقس",
+            "volume": 91779,
+            "category": "daily_life"
+          },
+          {
+            "query": "Barcelona vs Atletico Madrid",
+            "translation": "مباراه برشلونه واتلتيكو مدريد",
+            "volume": 55246,
+            "category": "sports"
+          },
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 9500,
+            "category": "security"
+          },
+          {
+            "query": "the weather tomorrow",
+            "translation": "الطقس غدًا",
+            "volume": 51525,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "CY": {
+        "name": "קפריסין",
+        "total_searches": 110000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 56000,
+          "culture": 5500,
+          "security": 3000,
+          "economy": 0,
+          "tech": 23223,
+          "other": 22277
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Middle East war",
+            "translation": "",
+            "volume": 3000,
+            "category": "security"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2275,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2274,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2186,
+            "category": "sports"
+          },
+          {
+            "query": "wolves vs liverpool",
+            "translation": "",
+            "volume": 2122,
+            "category": "sports"
+          }
+        ]
+      },
+      "EG": {
+        "name": "מצרים",
+        "total_searches": 217000,
+        "categories": {
+          "daily_life": 3450,
+          "sports": 123000,
+          "culture": 22915,
+          "security": 7200,
+          "economy": 6358,
+          "tech": 3063,
+          "other": 51014
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 9542,
+            "category": "sports"
+          },
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 7200,
+            "category": "security"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 5625,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 5278,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 4815,
+            "category": "sports"
+          }
+        ]
+      },
+      "AE": {
+        "name": "איחוד האמירויות",
+        "total_searches": 176000,
+        "categories": {
+          "daily_life": 2352,
+          "sports": 85000,
+          "culture": 0,
+          "security": 5500,
+          "economy": 1949,
+          "tech": 9337,
+          "other": 71862
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "آخر أخبار الحرب",
+            "volume": 5500,
+            "category": "security"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5361,
+            "category": "sports"
+          },
+          {
+            "query": "cole mcconchie",
+            "translation": "",
+            "volume": 5151,
+            "category": "other"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5136,
+            "category": "sports"
+          },
+          {
+            "query": "Premier League",
+            "translation": "",
+            "volume": 5076,
+            "category": "sports"
+          }
+        ]
+      },
+      "SA": {
+        "name": "סעודיה",
+        "total_searches": 376000,
+        "categories": {
+          "daily_life": 1285,
+          "sports": 215000,
+          "culture": 1288,
+          "security": 27400,
+          "economy": 1688,
+          "tech": 16522,
+          "other": 112817
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 27400,
+            "category": "security"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 17193,
+            "category": "other"
+          },
+          {
+            "query": "Al-Jawf",
+            "translation": "الجوف",
+            "volume": 15213,
+            "category": "other"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 6642,
+            "category": "sports"
+          },
+          {
+            "query": "English Premier League standings",
+            "translation": "ترتيب الدوري الانجليزي",
+            "volume": 6607,
+            "category": "sports"
+          }
+        ]
+      },
+      "JO": {
+        "name": "ירדן",
+        "total_searches": 165000,
+        "categories": {
+          "daily_life": 84525,
+          "sports": 71000,
+          "culture": 0,
+          "security": 5000,
+          "economy": 0,
+          "tech": 3281,
+          "other": 1194
+        },
+        "main_category": "daily_life",
+        "top_queries": [
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11249,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 11010,
+            "category": "daily_life"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10935,
+            "category": "daily_life"
+          },
+          {
+            "query": "Iran Israel war",
+            "translation": "حرب ايران اسرائيل",
+            "volume": 5000,
+            "category": "security"
+          },
+          {
+            "query": "Maghrib Adhan",
+            "translation": "اذان المغرب",
+            "volume": 10811,
+            "category": "daily_life"
+          }
+        ]
+      },
+      "YE": {
+        "name": "תימן",
+        "total_searches": 123000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 108000,
+          "culture": 0,
+          "security": 4000,
+          "economy": 0,
+          "tech": 0,
+          "other": 11000
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Barcelona",
+            "translation": "برشلونة",
+            "volume": 10038,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 5207,
+            "category": "sports"
+          },
+          {
+            "query": "war Iran",
+            "translation": "حرب ايران",
+            "volume": 4000,
+            "category": "security"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 4869,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 4660,
+            "category": "sports"
+          }
+        ]
+      },
+      "SY": {
+        "name": "סוריה",
+        "total_searches": 139000,
+        "categories": {
+          "daily_life": 6886,
+          "sports": 111000,
+          "culture": 893,
+          "security": 5800,
+          "economy": 0,
+          "tech": 0,
+          "other": 14421
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 4897,
+            "category": "sports"
+          },
+          {
+            "query": "Iran war",
+            "translation": "حرب ايران",
+            "volume": 5800,
+            "category": "security"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 4775,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 2204,
+            "category": "sports"
+          },
+          {
+            "query": "Man City vs Nottingham Forest",
+            "translation": "مان سيتي ضد نوتينغهام فورست",
+            "volume": 2188,
+            "category": "sports"
+          }
+        ]
+      },
+      "IL": {
+        "name": "ישראל",
+        "total_searches": 379000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 93000,
+          "culture": 11622,
+          "security": 61600,
+          "economy": 0,
+          "tech": 29584,
+          "other": 183194
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "Iran war",
+            "translation": "מלחמה איראן",
+            "volume": 61600,
+            "category": "security"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 6917,
+            "category": "other"
+          },
+          {
+            "query": "Bnei Sabti",
+            "translation": "בני סבטי",
+            "volume": 6490,
+            "category": "other"
+          },
+          {
+            "query": "Kurds",
+            "translation": "כורדים",
+            "volume": 6165,
+            "category": "other"
+          },
+          {
+            "query": "Caroline Leavitt",
+            "translation": "קרוליין לוויט",
+            "volume": 5667,
+            "category": "other"
+          }
+        ]
+      },
+      "PS": {
+        "name": "פלסטין",
+        "total_searches": 104000,
+        "categories": {
+          "daily_life": 12398,
+          "sports": 74000,
+          "culture": 0,
+          "security": 6800,
+          "economy": 0,
+          "tech": 11123,
+          "other": 0
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "war Iran",
+            "translation": "حرب ايران",
+            "volume": 6800,
+            "category": "security"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5467,
+            "category": "daily_life"
+          },
+          {
+            "query": "Al-Fajr",
+            "translation": "الفجر",
+            "volume": 5439,
+            "category": "daily_life"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 2240,
+            "category": "sports"
+          },
+          {
+            "query": "Newcastle United vs Man United",
+            "translation": "نيوكاسل يونايتد ضد مان يونايتد",
+            "volume": 2227,
+            "category": "sports"
+          }
+        ]
+      },
+      "LB": {
+        "name": "לבנון",
+        "total_searches": 9000,
+        "categories": {
+          "daily_life": 0,
+          "sports": 4000,
+          "culture": 251,
+          "security": 3200,
+          "economy": 0,
+          "tech": 1023,
+          "other": 527
+        },
+        "main_category": "sports",
+        "top_queries": [
+          {
+            "query": "war Lebanon",
+            "translation": "حرب لبنان",
+            "volume": 3200,
+            "category": "security"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 561,
+            "category": "other"
+          },
+          {
+            "query": "Armun",
+            "translation": "عرمون",
+            "volume": 536,
+            "category": "other"
+          },
+          {
+            "query": "Aston Villa vs Chelsea",
+            "translation": "",
+            "volume": 235,
+            "category": "sports"
+          },
+          {
+            "query": "Aston Villa vs Chelsea",
+            "translation": "",
+            "volume": 224,
+            "category": "sports"
+          }
+        ]
+      },
+      "IR": {
+        "name": "איראן",
+        "total_searches": 0,
+        "categories": {
+          "daily_life": 0,
+          "sports": 0,
+          "culture": 0,
+          "security": 0,
+          "economy": 0,
+          "tech": 0,
+          "other": 0
+        },
+        "main_category": "other",
+        "top_queries": [
+          {
+            "query": "—",
+            "translation": "—",
+            "volume": 0,
+            "category": "other"
+          },
+          {
+            "query": "—",
+            "translation": "—",
+            "volume": 0,
+            "category": "other"
+          },
+          {
+            "query": "—",
+            "translation": "—",
+            "volume": 0,
+            "category": "other"
+          },
+          {
+            "query": "—",
+            "translation": "—",
+            "volume": 0,
+            "category": "other"
+          },
+          {
+            "query": "—",
+            "translation": "—",
+            "volume": 0,
+            "category": "other"
+          }
+        ]
+      }
+    }
+  }
+}

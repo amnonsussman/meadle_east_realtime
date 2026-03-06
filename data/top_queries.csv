@@ -1,0 +1,651 @@
+date,country,rank,query,translation,volume,category
+2026-02-23,TR,1,Iftar Hour,iftar saati,112000,daily_life
+2026-02-23,TR,2,atv live,atv canlı,106000,culture
+2026-02-23,TR,3,Adana iftar time,adana iftar vakti,96000,daily_life
+2026-02-23,TR,4,Batman iftar time,batman iftar vakti,93000,daily_life
+2026-02-23,TR,5,Galatasaray,Galatasaray,28000,sports
+2026-02-23,IQ,1,the weather,الطقس,298000,daily_life
+2026-02-23,IQ,2,the weather,الطقس,207000,daily_life
+2026-02-23,IQ,3,the weather tomorrow,الطقس غدًا,150000,daily_life
+2026-02-23,IQ,4,Barcelona vs Real Madrid,مباراة برشلونة وريال مدريد,130000,sports
+2026-02-23,IQ,5,Barcelona vs Real Madrid,مباراة برشلونة وريال مدريد,108000,sports
+2026-02-23,EG,1,Al Ahly vs Zamalek,الأهلي ضد الزمالك,12000,sports
+2026-02-23,EG,2,English Premier League,ترتيب الدوري الانجليزي,5500,sports
+2026-02-23,EG,3,English Premier League,ترتيب الدوري الانجليزي,5200,sports
+2026-02-23,EG,4,Al Ahly vs Zamalek,الأهلي ضد الزمالك,4800,sports
+2026-02-23,EG,5,Mohamed Salah,محمد صلاح,3200,sports
+2026-02-23,SA,1,Al-Jawf,الجوف,5400,other
+2026-02-23,SA,2,Al-Jawf,الجوف,5000,other
+2026-02-23,SA,3,English Premier League standings,ترتيب الدوري الانجليزي,2200,sports
+2026-02-23,SA,4,Al Hilal,الهلال,2100,sports
+2026-02-23,SA,5,Al Hilal,الهلال,1900,sports
+2026-02-23,AE,1,Premier League,,5600,sports
+2026-02-23,AE,2,Premier League,,5500,sports
+2026-02-23,AE,3,cole mcconchie,,5200,other
+2026-02-23,AE,4,Premier League,,5100,sports
+2026-02-23,AE,5,cole mcconchie,,4700,other
+2026-02-23,JO,1,Maghrib Adhan,اذان المغرب,11300,daily_life
+2026-02-23,JO,2,Maghrib Adhan,اذان المغرب,11100,daily_life
+2026-02-23,JO,3,Maghrib Adhan,اذان المغرب,10900,daily_life
+2026-02-23,JO,4,Maghrib Adhan,اذان المغرب,10800,daily_life
+2026-02-23,JO,5,Maghrib Adhan,اذان المغرب,10500,daily_life
+2026-02-23,YE,1,Barcelona,برشلونة,8800,sports
+2026-02-23,YE,2,Liverpool vs Arsenal,ليفربول ضد آرسنال,5300,sports
+2026-02-23,YE,3,Liverpool vs Arsenal,ليفربول ضد آرسنال,5100,sports
+2026-02-23,YE,4,Barcelona,برشلونة,4500,sports
+2026-02-23,YE,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,2100,sports
+2026-02-23,SY,1,Liverpool vs Arsenal,ليفربول ضد آرسنال,4700,sports
+2026-02-23,SY,2,Barcelona,برشلونة,4500,sports
+2026-02-23,SY,3,Liverpool vs Arsenal,ليفربول ضد آرسنال,2200,sports
+2026-02-23,SY,4,Barcelona,برشلونة,2100,sports
+2026-02-23,SY,5,the weather tomorrow,الطقس غدًا,1800,daily_life
+2026-02-23,IL,1,Kurds,כורדים,2300,other
+2026-02-23,IL,2,Caroline Leavitt,קרוליין לוויט,2200,other
+2026-02-23,IL,3,Bnei Sabti,בני סבטי,2100,other
+2026-02-23,IL,4,new love,אהבה חדשה,2000,other
+2026-02-23,IL,5,Hapoel Beer Sheva,הפועל באר שבע,1800,sports
+2026-02-23,PS,1,Al-Fajr,الفجر,5700,daily_life
+2026-02-23,PS,2,Al-Fajr,الفجر,5300,daily_life
+2026-02-23,PS,3,Barcelona,برشلونة,2200,sports
+2026-02-23,PS,4,Liverpool vs Arsenal,ليفربول ضد آرسنال,2100,sports
+2026-02-23,PS,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,2000,sports
+2026-02-23,LB,1,Armun,عرمون,2200,other
+2026-02-23,LB,2,Armun,عرمون,2100,other
+2026-02-23,LB,3,Armun,عرمون,2000,other
+2026-02-23,LB,4,Liverpool vs Arsenal,ليفربول ضد آرسنال,1100,sports
+2026-02-23,LB,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,1000,sports
+2026-02-23,CY,1,wolves vs liverpool,,6300,sports
+2026-02-23,CY,2,wolves vs liverpool,,5100,sports
+2026-02-23,CY,3,wolves vs liverpool,,5000,sports
+2026-02-23,CY,4,wolves vs liverpool,,4500,sports
+2026-02-23,CY,5,South Africa vs New Zealand,,3200,sports
+2026-02-23,IR,1,Mohsen Khamenei,مجتبی خامنه ای,2000,other
+2026-02-23,IR,2,Mohsen Khamenei,مجتبی خامنه ای,1900,other
+2026-02-23,IR,3,Mohsen Khamenei,مجتبی خامنه ای,1800,other
+2026-02-23,IR,4,Brighton vs Arsenal,,550,sports
+2026-02-23,IR,5,Brighton vs Arsenal,,520,sports
+2026-02-24,TR,1,Iftar Hour,iftar saati,113000,daily_life
+2026-02-24,TR,2,atv live,atv canlı,107000,culture
+2026-02-24,TR,3,Adana iftar time,adana iftar vakti,95000,daily_life
+2026-02-24,TR,4,Batman iftar time,batman iftar vakti,94000,daily_life
+2026-02-24,TR,5,Galatasaray,Galatasaray,27000,sports
+2026-02-24,IQ,1,the weather,الطقس,295000,daily_life
+2026-02-24,IQ,2,the weather,الطقس,205000,daily_life
+2026-02-24,IQ,3,the weather tomorrow,الطقس غدًا,151000,daily_life
+2026-02-24,IQ,4,Barcelona,برشلونة,128000,sports
+2026-02-24,IQ,5,Barcelona,برشلونة,106000,sports
+2026-02-24,EG,1,Al Ahly,الأهلي,11500,sports
+2026-02-24,EG,2,English Premier League,ترتيب الدوري الانجليزي,5400,sports
+2026-02-24,EG,3,English Premier League,ترتيب الدوري الانجليزي,5100,sports
+2026-02-24,EG,4,Mohamed Salah,محمد صلاح,3100,sports
+2026-02-24,EG,5,Al Ahly,الأهلي,2900,sports
+2026-02-24,SA,1,Al-Jawf,الجوف,5500,other
+2026-02-24,SA,2,Al-Jawf,الجوف,5100,other
+2026-02-24,SA,3,English Premier League standings,ترتيب الدوري الانجليزي,2200,sports
+2026-02-24,SA,4,Al Hilal,الهلال,2000,sports
+2026-02-24,SA,5,Newcastle vs Man United,,1900,sports
+2026-02-24,AE,1,Premier League,,5500,sports
+2026-02-24,AE,2,Premier League,,5400,sports
+2026-02-24,AE,3,cole mcconchie,,5100,other
+2026-02-24,AE,4,Premier League,,5000,sports
+2026-02-24,AE,5,cole mcconchie,,4600,other
+2026-02-24,JO,1,Maghrib Adhan,اذان المغرب,11200,daily_life
+2026-02-24,JO,2,Maghrib Adhan,اذان المغرب,11000,daily_life
+2026-02-24,JO,3,Maghrib Adhan,اذان المغرب,10800,daily_life
+2026-02-24,JO,4,Maghrib Adhan,اذان المغرب,10700,daily_life
+2026-02-24,JO,5,Maghrib Adhan,اذان المغرب,10400,daily_life
+2026-02-24,YE,1,Barcelona,برشلونة,8900,sports
+2026-02-24,YE,2,Liverpool vs Arsenal,ليفربول ضد آرسنال,5400,sports
+2026-02-24,YE,3,Liverpool vs Arsenal,ليفربول ضد آرسنال,5200,sports
+2026-02-24,YE,4,Liverpool vs Arsenal,ليفربول ضد آرسنال,4600,sports
+2026-02-24,YE,5,Barcelona,برشلونة,2200,sports
+2026-02-24,SY,1,Liverpool vs Arsenal,ليفربول ضد آرسنال,4800,sports
+2026-02-24,SY,2,Barcelona,برشلونة,4600,sports
+2026-02-24,SY,3,Liverpool vs Arsenal,ليفربول ضد آرسنال,2300,sports
+2026-02-24,SY,4,the weather tomorrow,الطقس غدًا,1900,daily_life
+2026-02-24,SY,5,Barcelona,برشلونة,1800,sports
+2026-02-24,IL,1,Kurds,כורדים,2250,other
+2026-02-24,IL,2,Caroline Leavitt,קרוליין לוויט,2150,other
+2026-02-24,IL,3,Bnei Sabti,בני סבטי,2100,other
+2026-02-24,IL,4,new love,אהבה חדשה,1950,other
+2026-02-24,IL,5,Hapoel Beer Sheva,הפועל באר שבע,1750,sports
+2026-02-24,PS,1,Al-Fajr,الفجر,5600,daily_life
+2026-02-24,PS,2,Al-Fajr,الفجر,5200,daily_life
+2026-02-24,PS,3,Barcelona,برشلونة,2150,sports
+2026-02-24,PS,4,Liverpool vs Arsenal,ليفربول ضد آرسنال,2050,sports
+2026-02-24,PS,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,1950,sports
+2026-02-24,LB,1,Armun,عرمون,2150,other
+2026-02-24,LB,2,Armun,عرمون,2050,other
+2026-02-24,LB,3,Armun,عرمون,1950,other
+2026-02-24,LB,4,Liverpool vs Arsenal,ليفربول ضد آرسنال,1050,sports
+2026-02-24,LB,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,980,sports
+2026-02-24,CY,1,wolves vs liverpool,,6200,sports
+2026-02-24,CY,2,wolves vs liverpool,,5050,sports
+2026-02-24,CY,3,wolves vs liverpool,,4900,sports
+2026-02-24,CY,4,South Africa vs New Zealand,,3100,sports
+2026-02-24,CY,5,wolves vs liverpool,,2500,sports
+2026-02-24,IR,1,Mohsen Khamenei,مجتبی خامنه ای,1950,other
+2026-02-24,IR,2,Mohsen Khamenei,مجتبی خامنه ای,1850,other
+2026-02-24,IR,3,Mohsen Khamenei,مجتبی خامنه ای,1750,other
+2026-02-24,IR,4,Brighton vs Arsenal,,540,sports
+2026-02-24,IR,5,yak 130,,210,other
+2026-02-25,TR,1,Iftar Hour,iftar saati,111000,daily_life
+2026-02-25,TR,2,atv live,atv canlı,105500,culture
+2026-02-25,TR,3,Batman iftar time,batman iftar vakti,95500,daily_life
+2026-02-25,TR,4,Adana iftar time,adana iftar vakti,94000,daily_life
+2026-02-25,TR,5,Fenerbahce,Fenerbahçe,26000,sports
+2026-02-25,IQ,1,the weather,الطقس,300000,daily_life
+2026-02-25,IQ,2,the weather,الطقس,208000,daily_life
+2026-02-25,IQ,3,the weather tomorrow,الطقس غدًا,152000,daily_life
+2026-02-25,IQ,4,Barcelona,برشلونة,125000,sports
+2026-02-25,IQ,5,Barcelona,برشلونة,105000,sports
+2026-02-25,EG,1,Al Ahly,الأهلي,11000,sports
+2026-02-25,EG,2,English Premier League,ترتيب الدوري الانجليزي,5300,sports
+2026-02-25,EG,3,English Premier League,ترتيب الدوري الانجليزي,5000,sports
+2026-02-25,EG,4,Mohamed Salah,محمد صلاح,3050,sports
+2026-02-25,EG,5,Zamalek,الزمالك,2800,sports
+2026-02-25,SA,1,Al-Jawf,الجوف,5450,other
+2026-02-25,SA,2,Al-Jawf,الجوف,5050,other
+2026-02-25,SA,3,English Premier League standings,ترتيب الدوري الانجليزي,2150,sports
+2026-02-25,SA,4,Al Hilal,الهلال,2050,sports
+2026-02-25,SA,5,Al Hilal,الهلال,1850,sports
+2026-02-25,AE,1,Premier League,,5550,sports
+2026-02-25,AE,2,Premier League,,5450,sports
+2026-02-25,AE,3,cole mcconchie,,5150,other
+2026-02-25,AE,4,Premier League,,5050,sports
+2026-02-25,AE,5,cole mcconchie,,4650,other
+2026-02-25,JO,1,Maghrib Adhan,اذان المغرب,11350,daily_life
+2026-02-25,JO,2,Maghrib Adhan,اذان المغرب,11100,daily_life
+2026-02-25,JO,3,Maghrib Adhan,اذان المغرب,10950,daily_life
+2026-02-25,JO,4,Maghrib Adhan,اذان المغرب,10850,daily_life
+2026-02-25,JO,5,Maghrib Adhan,اذان المغرب,10600,daily_life
+2026-02-25,YE,1,Barcelona,برشلونة,8750,sports
+2026-02-25,YE,2,Liverpool vs Arsenal,ليفربول ضد آرسنال,5250,sports
+2026-02-25,YE,3,Liverpool vs Arsenal,ليفربول ضد آرسنال,5050,sports
+2026-02-25,YE,4,Barcelona,برشلونة,4400,sports
+2026-02-25,YE,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,2050,sports
+2026-02-25,SY,1,Liverpool vs Arsenal,ليفربول ضد آرسنال,4650,sports
+2026-02-25,SY,2,Barcelona,برشلونة,4400,sports
+2026-02-25,SY,3,Liverpool vs Arsenal,ليفربول ضد آرسنال,2150,sports
+2026-02-25,SY,4,the weather tomorrow,الطقس غدًا,1850,daily_life
+2026-02-25,SY,5,Barcelona,برشلونة,1750,sports
+2026-02-25,IL,1,Caroline Leavitt,קרוליין לוויט,2200,other
+2026-02-25,IL,2,Kurds,כורדים,2150,other
+2026-02-25,IL,3,Bnei Sabti,בני סבטי,2050,other
+2026-02-25,IL,4,new love,אהבה חדשה,1950,other
+2026-02-25,IL,5,Maccabi Tel Aviv,מכבי תל אביב,1700,sports
+2026-02-25,PS,1,Al-Fajr,الفجر,5650,daily_life
+2026-02-25,PS,2,Al-Fajr,الفجر,5250,daily_life
+2026-02-25,PS,3,Barcelona,برشلونة,2150,sports
+2026-02-25,PS,4,Liverpool vs Arsenal,ليفربول ضد آرسنال,2000,sports
+2026-02-25,PS,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,1900,sports
+2026-02-25,LB,1,Armun,عرمون,2100,other
+2026-02-25,LB,2,Armun,عرمون,2000,other
+2026-02-25,LB,3,Armun,عرمون,1900,other
+2026-02-25,LB,4,Liverpool vs Arsenal,ليفربول ضد آرسنال,1000,sports
+2026-02-25,LB,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,950,sports
+2026-02-25,CY,1,wolves vs liverpool,,6100,sports
+2026-02-25,CY,2,wolves vs liverpool,,5000,sports
+2026-02-25,CY,3,wolves vs liverpool,,4850,sports
+2026-02-25,CY,4,South Africa vs New Zealand,,3050,sports
+2026-02-25,CY,5,wolves vs liverpool,,2400,sports
+2026-02-25,IR,1,Mohsen Khamenei,مجتبی خامنه ای,1950,other
+2026-02-25,IR,2,Mohsen Khamenei,مجتبی خامنه ای,1880,other
+2026-02-25,IR,3,Mohsen Khamenei,مجتبی خامنه ای,1780,other
+2026-02-25,IR,4,Brighton vs Arsenal,,530,sports
+2026-02-25,IR,5,yak 130,,200,other
+2026-02-26,TR,1,Iftar Hour,iftar saati,110000,daily_life
+2026-02-26,TR,2,atv live,atv canlı,104000,culture
+2026-02-26,TR,3,Adana iftar time,adana iftar vakti,93000,daily_life
+2026-02-26,TR,4,Batman iftar time,batman iftar vakti,92000,daily_life
+2026-02-26,TR,5,Galatasaray vs Besiktas,Galatasaray Beşiktaş,25000,sports
+2026-02-26,IQ,1,the weather,الطقس,296000,daily_life
+2026-02-26,IQ,2,the weather,الطقس,204000,daily_life
+2026-02-26,IQ,3,the weather tomorrow,الطقس غدًا,149000,daily_life
+2026-02-26,IQ,4,Barcelona,برشلونة,127000,sports
+2026-02-26,IQ,5,Barcelona,برشلونة,107000,sports
+2026-02-26,EG,1,Al Ahly,الأهلي,11200,sports
+2026-02-26,EG,2,English Premier League,ترتيب الدوري الانجليزي,5350,sports
+2026-02-26,EG,3,English Premier League,ترتيب الدوري الانجليزي,5050,sports
+2026-02-26,EG,4,Mohamed Salah,محمد صلاح,3100,sports
+2026-02-26,EG,5,Zamalek,الزمالك,2850,sports
+2026-02-26,SA,1,Al-Jawf,الجوف,5500,other
+2026-02-26,SA,2,Al-Jawf,الجوف,5100,other
+2026-02-26,SA,3,English Premier League standings,ترتيب الدوري الانجليزي,2200,sports
+2026-02-26,SA,4,Al Hilal,الهلال,2050,sports
+2026-02-26,SA,5,Newcastle vs Man United,,1950,sports
+2026-02-26,AE,1,Premier League,,5600,sports
+2026-02-26,AE,2,Premier League,,5500,sports
+2026-02-26,AE,3,cole mcconchie,,5200,other
+2026-02-26,AE,4,Premier League,,5100,sports
+2026-02-26,AE,5,cole mcconchie,,4700,other
+2026-02-26,JO,1,Maghrib Adhan,اذان المغرب,11400,daily_life
+2026-02-26,JO,2,Maghrib Adhan,اذان المغرب,11150,daily_life
+2026-02-26,JO,3,Maghrib Adhan,اذان المغرب,11000,daily_life
+2026-02-26,JO,4,Maghrib Adhan,اذان المغرب,10900,daily_life
+2026-02-26,JO,5,Maghrib Adhan,اذان المغرب,10650,daily_life
+2026-02-26,YE,1,Barcelona,برشلونة,8850,sports
+2026-02-26,YE,2,Liverpool vs Arsenal,ليفربول ضد آرسنال,5350,sports
+2026-02-26,YE,3,Liverpool vs Arsenal,ليفربول ضد آرسنال,5150,sports
+2026-02-26,YE,4,Barcelona,برشلونة,4550,sports
+2026-02-26,YE,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,2150,sports
+2026-02-26,SY,1,Liverpool vs Arsenal,ليفربول ضد آرسنال,4750,sports
+2026-02-26,SY,2,Barcelona,برشلونة,4550,sports
+2026-02-26,SY,3,Liverpool vs Arsenal,ليفربول ضد آرسنال,2250,sports
+2026-02-26,SY,4,the weather tomorrow,الطقس غدًا,1850,daily_life
+2026-02-26,SY,5,Barcelona,برشلونة,1800,sports
+2026-02-26,IL,1,Kurds,כורדים,2300,other
+2026-02-26,IL,2,Caroline Leavitt,קרוליין לוויט,2200,other
+2026-02-26,IL,3,Bnei Sabti,בני סבטי,2100,other
+2026-02-26,IL,4,new love,אהבה חדשה,2000,other
+2026-02-26,IL,5,Hapoel Beer Sheva,הפועל באר שבע,1800,sports
+2026-02-26,PS,1,Al-Fajr,الفجر,5700,daily_life
+2026-02-26,PS,2,Al-Fajr,الفجر,5300,daily_life
+2026-02-26,PS,3,Barcelona,برشلونة,2200,sports
+2026-02-26,PS,4,Liverpool vs Arsenal,ليفربول ضد آرسنال,2100,sports
+2026-02-26,PS,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,2000,sports
+2026-02-26,LB,1,Armun,عرمون,2200,other
+2026-02-26,LB,2,Armun,عرمون,2100,other
+2026-02-26,LB,3,Armun,عرمون,2000,other
+2026-02-26,LB,4,Liverpool vs Arsenal,ليفربول ضد آرسنال,1050,sports
+2026-02-26,LB,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,1000,sports
+2026-02-26,CY,1,wolves vs liverpool,,6250,sports
+2026-02-26,CY,2,wolves vs liverpool,,5100,sports
+2026-02-26,CY,3,wolves vs liverpool,,4950,sports
+2026-02-26,CY,4,South Africa vs New Zealand,,3150,sports
+2026-02-26,CY,5,wolves vs liverpool,,2450,sports
+2026-02-26,IR,1,Mohsen Khamenei,مجتبی خامنه ای,2000,other
+2026-02-26,IR,2,Mohsen Khamenei,مجتبی خامنه ای,1900,other
+2026-02-26,IR,3,Mohsen Khamenei,مجتبی خامنه ای,1800,other
+2026-02-26,IR,4,Brighton vs Arsenal,,545,sports
+2026-02-26,IR,5,yak 130,,210,other
+2026-02-27,TR,1,Iftar Hour,iftar saati,111500,daily_life
+2026-02-27,TR,2,atv live,atv canlı,105000,culture
+2026-02-27,TR,3,Batman iftar time,batman iftar vakti,94500,daily_life
+2026-02-27,TR,4,Adana iftar time,adana iftar vakti,93500,daily_life
+2026-02-27,TR,5,Galatasaray,Galatasaray,26500,sports
+2026-02-27,IQ,1,the weather,الطقس,297000,daily_life
+2026-02-27,IQ,2,the weather,الطقس,206000,daily_life
+2026-02-27,IQ,3,the weather tomorrow,الطقس غدًا,151000,daily_life
+2026-02-27,IQ,4,Barcelona,برشلونة,126000,sports
+2026-02-27,IQ,5,Barcelona,برشلونة,107000,sports
+2026-02-27,EG,1,English Premier League,ترتيب الدوري الانجليزي,5450,sports
+2026-02-27,EG,2,English Premier League,ترتيب الدوري الانجليزي,5100,sports
+2026-02-27,EG,3,Mohamed Salah,محمد صلاح,3050,sports
+2026-02-27,EG,4,Al Ahly,الأهلي,2900,sports
+2026-02-27,EG,5,Zamalek,الزمالك,2750,sports
+2026-02-27,SA,1,Al-Jawf,الجوف,5450,other
+2026-02-27,SA,2,Al-Jawf,الجوف,5050,other
+2026-02-27,SA,3,English Premier League standings,ترتيب الدوري الانجليزي,2180,sports
+2026-02-27,SA,4,Newcastle vs Man United,,1950,sports
+2026-02-27,SA,5,Al Hilal,الهلال,1900,sports
+2026-02-27,AE,1,Premier League,,5580,sports
+2026-02-27,AE,2,Premier League,,5480,sports
+2026-02-27,AE,3,cole mcconchie,,5180,other
+2026-02-27,AE,4,Premier League,,5080,sports
+2026-02-27,AE,5,cole mcconchie,,4680,other
+2026-02-27,JO,1,Maghrib Adhan,اذان المغرب,11280,daily_life
+2026-02-27,JO,2,Maghrib Adhan,اذان المغرب,11080,daily_life
+2026-02-27,JO,3,Maghrib Adhan,اذان المغرب,10920,daily_life
+2026-02-27,JO,4,Maghrib Adhan,اذان المغرب,10780,daily_life
+2026-02-27,JO,5,Maghrib Adhan,اذان المغرب,10520,daily_life
+2026-02-27,YE,1,Barcelona,برشلونة,8780,sports
+2026-02-27,YE,2,Liverpool vs Arsenal,ليفربول ضد آرسنال,5280,sports
+2026-02-27,YE,3,Liverpool vs Arsenal,ليفربول ضد آرسنال,5100,sports
+2026-02-27,YE,4,Barcelona,برشلونة,4480,sports
+2026-02-27,YE,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,2080,sports
+2026-02-27,SY,1,Liverpool vs Arsenal,ليفربول ضد آرسنال,4680,sports
+2026-02-27,SY,2,Barcelona,برشلونة,4480,sports
+2026-02-27,SY,3,Liverpool vs Arsenal,ليفربول ضد آرسنال,2200,sports
+2026-02-27,SY,4,the weather tomorrow,الطقس غدًا,1820,daily_life
+2026-02-27,SY,5,Barcelona,برشلونة,1780,sports
+2026-02-27,IL,1,Kurds,כורדים,2280,other
+2026-02-27,IL,2,Caroline Leavitt,קרוליין לוויט,2180,other
+2026-02-27,IL,3,Bnei Sabti,בני סבטי,2080,other
+2026-02-27,IL,4,new love,אהבה חדשה,1980,other
+2026-02-27,IL,5,Hapoel Beer Sheva,הפועל באר שבע,1780,sports
+2026-02-27,PS,1,Al-Fajr,الفجر,5680,daily_life
+2026-02-27,PS,2,Al-Fajr,الفجر,5280,daily_life
+2026-02-27,PS,3,Barcelona,برشلونة,2180,sports
+2026-02-27,PS,4,Liverpool vs Arsenal,ليفربول ضد آرسنال,2080,sports
+2026-02-27,PS,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,1980,sports
+2026-02-27,LB,1,Armun,عرمون,2180,other
+2026-02-27,LB,2,Armun,عرمون,2080,other
+2026-02-27,LB,3,Armun,عرمون,1980,other
+2026-02-27,LB,4,Liverpool vs Arsenal,ليفربول ضد آرسنال,1020,sports
+2026-02-27,LB,5,Liverpool vs Arsenal,ليفربول ضد آرسنال,980,sports
+2026-02-27,CY,1,wolves vs liverpool,,6280,sports
+2026-02-27,CY,2,wolves vs liverpool,,5080,sports
+2026-02-27,CY,3,wolves vs liverpool,,4980,sports
+2026-02-27,CY,4,South Africa vs New Zealand,,3180,sports
+2026-02-27,CY,5,wolves vs liverpool,,2420,sports
+2026-02-27,IR,1,Mohsen Khamenei,مجتبی خامنه ای,1980,other
+2026-02-27,IR,2,Mohsen Khamenei,مجتبی خامنه ای,1880,other
+2026-02-27,IR,3,Mohsen Khamenei,مجتبی خامنه ای,1780,other
+2026-02-27,IR,4,Brighton vs Arsenal,,535,sports
+2026-02-27,IR,5,yak 130,,205,other
+2026-02-28,TR,1,Iftar Hour,iftar saati,110734,daily_life
+2026-02-28,TR,2,atv live,atv canlı,107256,culture
+2026-02-28,TR,3,Batman iftar time,batman iftar vakti,104025,daily_life
+2026-02-28,TR,4,Adana iftar time,adana iftar vakti,95013,daily_life
+2026-02-28,TR,5,Israel Iran attack,İsrail İran saldırı,8500,security
+2026-02-28,IQ,1,the weather,الطقس,301386,daily_life
+2026-02-28,IQ,2,the weather,الطقس,209149,daily_life
+2026-02-28,IQ,3,the weather tomorrow,الطقس غدًا,154040,daily_life
+2026-02-28,IQ,4,Barcelona vs Atletico Madrid,مباراه برشلونه واتلتيكو مدريد,133900,sports
+2026-02-28,IQ,5,war Iran Israel,حرب ايران اسرائيل,12000,security
+2026-02-28,EG,1,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,10579,sports
+2026-02-28,EG,2,English Premier League standings,ترتيب الدوري الانجليزي,5420,sports
+2026-02-28,EG,3,Iran Israel war,حرب ايران اسرائيل,9500,security
+2026-02-28,EG,4,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,5255,sports
+2026-02-28,EG,5,English Premier League standings,ترتيب الدوري الانجليزي,4890,sports
+2026-02-28,SA,1,Al-Jawf,الجوف,5498,other
+2026-02-28,SA,2,Iran attack,هجوم ايران,10500,security
+2026-02-28,SA,3,English Premier League standings,ترتيب الدوري الانجليزي,2217,sports
+2026-02-28,SA,4,Al-Jawf,الجوف,5036,other
+2026-02-28,SA,5,Newcastle vs Man United,,1924,sports
+2026-02-28,AE,1,Premier League,,5665,sports
+2026-02-28,AE,2,Iran war,حرب ايران,8000,security
+2026-02-28,AE,3,Premier League,,5559,sports
+2026-02-28,AE,4,cole mcconchie,,5295,other
+2026-02-28,AE,5,Premier League,,5186,sports
+2026-02-28,JO,1,Maghrib Adhan,اذان المغرب,11382,daily_life
+2026-02-28,JO,2,Maghrib Adhan,اذان المغرب,11347,daily_life
+2026-02-28,JO,3,Maghrib Adhan,اذان المغرب,11049,daily_life
+2026-02-28,JO,4,Iran Israel attack,هجوم ايران اسرائيل,6800,security
+2026-02-28,JO,5,Maghrib Adhan,اذان المغرب,10995,daily_life
+2026-02-28,YE,1,Barcelona,برشلونة,8856,sports
+2026-02-28,YE,2,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,5377,sports
+2026-02-28,YE,3,war news,اخبار الحرب,5500,security
+2026-02-28,YE,4,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,5194,sports
+2026-02-28,YE,5,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,4577,sports
+2026-02-28,SY,1,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,4722,sports
+2026-02-28,SY,2,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,4603,sports
+2026-02-28,SY,3,Iran Israel war,حرب ايران اسرائيل,7200,security
+2026-02-28,SY,4,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,2292,sports
+2026-02-28,SY,5,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,2152,sports
+2026-02-28,IL,1,Iran attack,מתקפה איראנית,20800,security
+2026-02-28,IL,2,Kurds,כורדים,2291,other
+2026-02-28,IL,3,Caroline Leavitt,קרוליין לוויט,2212,other
+2026-02-28,IL,4,Bnei Sabti,בני סבטי,2201,other
+2026-02-28,IL,5,Home Front Command,פיקוד העורף,5000,security
+2026-02-28,PS,1,Al-Fajr,الفجر,5718,daily_life
+2026-02-28,PS,2,war Iran,حرب ايران,7500,security
+2026-02-28,PS,3,Al-Fajr,الفجر,5304,daily_life
+2026-02-28,PS,4,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,2298,sports
+2026-02-28,PS,5,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,2275,sports
+2026-02-28,LB,1,Armun,عرمون,2248,other
+2026-02-28,LB,2,Iran war Lebanon,حرب ايران لبنان,5200,security
+2026-02-28,LB,3,Armun,عرمون,2157,other
+2026-02-28,LB,4,Armun,عرمون,2089,other
+2026-02-28,LB,5,Newcastle vs Man United,,1083,sports
+2026-02-28,CY,1,wolves vs liverpool,,6361,sports
+2026-02-28,CY,2,wolves vs liverpool,,5200,sports
+2026-02-28,CY,3,Middle East war,,4200,security
+2026-02-28,CY,4,wolves vs liverpool,,5055,sports
+2026-02-28,CY,5,wolves vs liverpool,,4558,sports
+2026-02-28,IR,1,Mohsen Khamenei,مجتبی خامنه ای,2066,other
+2026-02-28,IR,2,Mohsen Khamenei,مجتبی خامنه ای,2016,other
+2026-02-28,IR,3,war alert,هشدار جنگ,2400,security
+2026-02-28,IR,4,Mohsen Khamenei,مجتبی خامنه ای,1882,other
+2026-02-28,IR,5,Brighton vs Arsenal,,555,sports
+2026-03-01,TR,1,Iftar Hour,iftar saati,114254,daily_life
+2026-03-01,TR,2,Iran Israel war,İsrail İran savaş,11000,security
+2026-03-01,TR,3,atv live,atv canlı,108120,culture
+2026-03-01,TR,4,Batman iftar time,batman iftar vakti,103517,daily_life
+2026-03-01,TR,5,Adana iftar time,adana iftar vakti,99743,daily_life
+2026-03-01,IQ,1,the weather,الطقس,111300,daily_life
+2026-03-01,IQ,2,the weather,الطقس,102169,daily_life
+2026-03-01,IQ,3,Iran Israel war,حرب ايران اسرائيل,15000,security
+2026-03-01,IQ,4,Barcelona vs Atletico Madrid,مباراه برشلونه واتلتيكو مدريد,48829,sports
+2026-03-01,IQ,5,the weather tomorrow,الطقس غدًا,49320,daily_life
+2026-03-01,EG,1,Iran attack latest,آخر أخبار هجوم ايران,12500,security
+2026-03-01,EG,2,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,11157,sports
+2026-03-01,EG,3,English Premier League standings,ترتيب الدوري الانجليزي,5447,sports
+2026-03-01,EG,4,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,5688,sports
+2026-03-01,EG,5,English Premier League standings,ترتيب الدوري الانجليزي,4956,sports
+2026-03-01,SA,1,Iran war,حرب ايران,12300,security
+2026-03-01,SA,2,Al-Jawf,الجوف,4991,other
+2026-03-01,SA,3,Al-Jawf,الجوف,4946,other
+2026-03-01,SA,4,English Premier League standings,ترتيب الدوري الانجليزي,2282,sports
+2026-03-01,SA,5,Newcastle vs Man United,,2164,sports
+2026-03-01,AE,1,Iran war latest,آخر أخبار الحرب,9200,security
+2026-03-01,AE,2,Premier League,,5034,sports
+2026-03-01,AE,3,cole mcconchie,,4995,other
+2026-03-01,AE,4,cole mcconchie,,4667,other
+2026-03-01,AE,5,Premier League,,4660,sports
+2026-03-01,JO,1,Maghrib Adhan,اذان المغرب,34447,daily_life
+2026-03-01,JO,2,Maghrib Adhan,اذان المغرب,33818,daily_life
+2026-03-01,JO,3,Maghrib Adhan,اذان المغرب,29349,daily_life
+2026-03-01,JO,4,Iran Israel war,حرب ايران اسرائيل,9500,security
+2026-03-01,JO,5,Maghrib Adhan,اذان المغرب,28916,daily_life
+2026-03-01,YE,1,Barcelona,برشلونة,9747,sports
+2026-03-01,YE,2,war Iran Israel,حرب ايران اسرائيل,6800,security
+2026-03-01,YE,3,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,5468,sports
+2026-03-01,YE,4,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,5427,sports
+2026-03-01,YE,5,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,4720,sports
+2026-03-01,SY,1,Iran war,حرب ايران,9800,security
+2026-03-01,SY,2,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,5678,sports
+2026-03-01,SY,3,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,4511,sports
+2026-03-01,SY,4,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,2219,sports
+2026-03-01,SY,5,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,2054,sports
+2026-03-01,IL,1,Iran missiles,טילים מאיראן,16700,security
+2026-03-01,IL,2,new love,אהבה חדשה,2297,other
+2026-03-01,IL,3,Caroline Leavitt,קרוליין לוויט,2115,other
+2026-03-01,IL,4,Bnei Sabti,בני סבטי,2062,other
+2026-03-01,IL,5,Home Front Command,פיקוד העורף,8000,security
+2026-03-01,PS,1,war Iran,حرب ايران,8200,security
+2026-03-01,PS,2,Al-Fajr,الفجر,945,daily_life
+2026-03-01,PS,3,Al-Fajr,الفجر,784,daily_life
+2026-03-01,PS,4,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,547,sports
+2026-03-01,PS,5,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,507,sports
+2026-03-01,LB,1,Iran war Lebanon,حرب ايران لبنان,7500,security
+2026-03-01,LB,2,Armun,عرمون,2254,other
+2026-03-01,LB,3,Armun,عرمون,2170,other
+2026-03-01,LB,4,Armun,عرمون,2143,other
+2026-03-01,LB,5,Newcastle vs Man United,,1143,sports
+2026-03-01,CY,1,Middle East war,,5800,security
+2026-03-01,CY,2,wolves vs liverpool,,2259,sports
+2026-03-01,CY,3,wolves vs liverpool,,2064,sports
+2026-03-01,CY,4,wolves vs liverpool,,2053,sports
+2026-03-01,CY,5,wolves vs liverpool,,1914,sports
+2026-03-01,IR,1,war alert,هشدار جنگ,3200,security
+2026-03-01,IR,2,Mohsen Khamenei,مجتبی خامنه ای,1658,other
+2026-03-01,IR,3,Mohsen Khamenei,مجتبی خامنه ای,1648,other
+2026-03-01,IR,4,Mohsen Khamenei,مجتبی خامنه ای,1604,other
+2026-03-01,IR,5,Brighton vs Arsenal,,418,sports
+2026-03-02,TR,1,atv live,atv canlı,114353,culture
+2026-03-02,TR,2,Iftar Hour,iftar saati,111609,daily_life
+2026-03-02,TR,3,Iran war update,İran savaş güncelleme,9800,security
+2026-03-02,TR,4,Adana iftar time,adana iftar vakti,108350,daily_life
+2026-03-02,TR,5,Batman iftar time,batman iftar vakti,108118,daily_life
+2026-03-02,IQ,1,the weather,الطقس,105684,daily_life
+2026-03-02,IQ,2,the weather,الطقس,85074,daily_life
+2026-03-02,IQ,3,the weather tomorrow,الطقس غدًا,55275,daily_life
+2026-03-02,IQ,4,Iran war,حرب ايران,13500,security
+2026-03-02,IQ,5,Barcelona vs Atletico Madrid,مباراه برشلونه واتلتيكو مدريد,50777,sports
+2026-03-02,EG,1,Iran war,حرب ايران,10200,security
+2026-03-02,EG,2,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,9849,sports
+2026-03-02,EG,3,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,5692,sports
+2026-03-02,EG,4,English Premier League standings,ترتيب الدوري الانجليزي,5564,sports
+2026-03-02,EG,5,English Premier League standings,ترتيب الدوري الانجليزي,5075,sports
+2026-03-02,SA,1,Iran war,حرب ايران,12800,security
+2026-03-02,SA,2,Al-Jawf,الجوف,4608,other
+2026-03-02,SA,3,Al-Jawf,الجوف,4456,other
+2026-03-02,SA,4,Newcastle vs Man United,,2273,sports
+2026-03-02,SA,5,English Premier League standings,ترتيب الدوري الانجليزي,2268,sports
+2026-03-02,AE,1,Iran war,آخر أخبار الحرب,7500,security
+2026-03-02,AE,2,Premier League,,5396,sports
+2026-03-02,AE,3,cole mcconchie,,5378,other
+2026-03-02,AE,4,Premier League,,4992,sports
+2026-03-02,AE,5,Premier League,,4756,sports
+2026-03-02,JO,1,Maghrib Adhan,اذان المغرب,11307,daily_life
+2026-03-02,JO,2,Maghrib Adhan,اذان المغرب,11085,daily_life
+2026-03-02,JO,3,Maghrib Adhan,اذان المغرب,10660,daily_life
+2026-03-02,JO,4,Iran Israel war,حرب ايران اسرائيل,7500,security
+2026-03-02,JO,5,Maghrib Adhan,اذان المغرب,10136,daily_life
+2026-03-02,YE,1,Barcelona,برشلونة,9703,sports
+2026-03-02,YE,2,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,5485,sports
+2026-03-02,YE,3,war Iran Israel,حرب ايران اسرائيل,5200,security
+2026-03-02,YE,4,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,5085,sports
+2026-03-02,YE,5,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,4340,sports
+2026-03-02,SY,1,Iran war,حرب ايران,3500,security
+2026-03-02,SY,2,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,1286,sports
+2026-03-02,SY,3,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,660,sports
+2026-03-02,SY,4,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,572,sports
+2026-03-02,SY,5,Aston Villa vs Chelsea,أستون فيلا ضد تشيلسي,537,sports
+2026-03-02,IL,1,Iran attack,מתקפה איראנית,53700,security
+2026-03-02,IL,2,Caroline Leavitt,קרוליין לוויט,6543,other
+2026-03-02,IL,3,Bnei Sabti,בני סבטי,6459,other
+2026-03-02,IL,4,Caroline Leavitt,קרוליין לוויט,6071,other
+2026-03-02,IL,5,Bnei Sabti,בני סבטי,4792,other
+2026-03-02,PS,1,war Iran,حرب ايران,9200,security
+2026-03-02,PS,2,Al-Fajr,الفجر,4908,daily_life
+2026-03-02,PS,3,Al-Fajr,الفجر,4702,daily_life
+2026-03-02,PS,4,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,2274,sports
+2026-03-02,PS,5,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,2247,sports
+2026-03-02,LB,1,war Lebanon,حرب لبنان,2800,security
+2026-03-02,LB,2,Armun,عرمون,495,other
+2026-03-02,LB,3,Armun,عرمون,467,other
+2026-03-02,LB,4,Armun,عرمون,463,other
+2026-03-02,LB,5,Newcastle vs Man United,,295,sports
+2026-03-02,CY,1,Middle East war,,4800,security
+2026-03-02,CY,2,wolves vs liverpool,,2210,sports
+2026-03-02,CY,3,wolves vs liverpool,,2184,sports
+2026-03-02,CY,4,wolves vs liverpool,,2102,sports
+2026-03-02,CY,5,wolves vs liverpool,,1828,sports
+2026-03-02,IR,1,war,جنگ,800,security
+2026-03-02,IR,2,Mohsen Khamenei,مجتبی خامنه ای,385,other
+2026-03-02,IR,3,Mohsen Khamenei,مجتبی خامنه ای,374,other
+2026-03-02,IR,4,Mohsen Khamenei,مجتبی خامنه ای,353,other
+2026-03-02,IR,5,Brighton vs Arsenal,,103,sports
+2026-03-03,TR,1,Iftar Hour,iftar saati,113163,daily_life
+2026-03-03,TR,2,atv live,atv canlı,106471,culture
+2026-03-03,TR,3,Iran war,İran savaş,7500,security
+2026-03-03,TR,4,Adana iftar time,adana iftar vakti,101810,daily_life
+2026-03-03,TR,5,Batman iftar time,batman iftar vakti,98316,daily_life
+2026-03-03,IQ,1,the weather,الطقس,114784,daily_life
+2026-03-03,IQ,2,the weather,الطقس,108827,daily_life
+2026-03-03,IQ,3,Barcelona vs Atletico Madrid,مباراه برشلونه واتلتيكو مدريد,57417,sports
+2026-03-03,IQ,4,Iran war,حرب ايران,11000,security
+2026-03-03,IQ,5,the weather tomorrow,الطقس غدًا,55381,daily_life
+2026-03-03,EG,1,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,29380,sports
+2026-03-03,EG,2,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,17322,sports
+2026-03-03,EG,3,English Premier League standings,ترتيب الدوري الانجليزي,15898,sports
+2026-03-03,EG,4,Iran war,حرب ايران,8200,security
+2026-03-03,EG,5,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,15716,sports
+2026-03-03,SA,1,Iran war,حرب ايران,10900,security
+2026-03-03,SA,2,Al-Jawf,الجوف,5445,other
+2026-03-03,SA,3,Al-Jawf,الجوف,5254,other
+2026-03-03,SA,4,English Premier League standings,ترتيب الدوري الانجليزي,2226,sports
+2026-03-03,SA,5,Newcastle vs Man United,,2194,sports
+2026-03-03,AE,1,Iran war,آخر أخبار الحرب,6200,security
+2026-03-03,AE,2,Premier League,,5618,sports
+2026-03-03,AE,3,Premier League,,5356,sports
+2026-03-03,AE,4,cole mcconchie,,5280,other
+2026-03-03,AE,5,Premier League,,5268,sports
+2026-03-03,JO,1,Maghrib Adhan,اذان المغرب,2971,daily_life
+2026-03-03,JO,2,Maghrib Adhan,اذان المغرب,2900,daily_life
+2026-03-03,JO,3,Iran Israel war,حرب ايران اسرائيل,5500,security
+2026-03-03,JO,4,Maghrib Adhan,اذان المغرب,2243,daily_life
+2026-03-03,JO,5,Maghrib Adhan,اذان المغرب,1737,daily_life
+2026-03-03,YE,1,Barcelona,برشلونة,9477,sports
+2026-03-03,YE,2,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,5565,sports
+2026-03-03,YE,3,war Iran,حرب ايران,4500,security
+2026-03-03,YE,4,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,5412,sports
+2026-03-03,YE,5,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,4993,sports
+2026-03-03,SY,1,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,5647,sports
+2026-03-03,SY,2,Iran war,حرب ايران,6500,security
+2026-03-03,SY,3,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,4380,sports
+2026-03-03,SY,4,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,2273,sports
+2026-03-03,SY,5,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,2225,sports
+2026-03-03,IL,1,Iran war,מלחמה איראן,19800,security
+2026-03-03,IL,2,Caroline Leavitt,קרוליין לוויט,2280,other
+2026-03-03,IL,3,Bnei Sabti,בני סבטי,2236,other
+2026-03-03,IL,4,new love,אהבה חדשה,2223,other
+2026-03-03,IL,5,Kurds,כורדים,2127,other
+2026-03-03,PS,1,war Iran,حرب ايران,7800,security
+2026-03-03,PS,2,Al-Fajr,الفجر,5404,daily_life
+2026-03-03,PS,3,Al-Fajr,الفجر,4755,daily_life
+2026-03-03,PS,4,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,2256,sports
+2026-03-03,PS,5,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,2214,sports
+2026-03-03,LB,1,war Lebanon,حرب لبنان,5000,security
+2026-03-03,LB,2,Armun,عرمون,2155,other
+2026-03-03,LB,3,Armun,عرمون,2132,other
+2026-03-03,LB,4,Aston Villa vs Chelsea,,1143,sports
+2026-03-03,LB,5,Armun,عرمون,2068,other
+2026-03-03,CY,1,Middle East war,,3500,security
+2026-03-03,CY,2,wolves vs liverpool,,2237,sports
+2026-03-03,CY,3,wolves vs liverpool,,2093,sports
+2026-03-03,CY,4,wolves vs liverpool,,2032,sports
+2026-03-03,CY,5,South Africa vs New Zealand,,1101,sports
+2026-03-03,IR,1,—,—,0,other
+2026-03-03,IR,2,—,—,0,other
+2026-03-03,IR,3,—,—,0,other
+2026-03-03,IR,4,—,—,0,other
+2026-03-03,IR,5,—,—,0,other
+2026-03-04,TR,1,atv live,atv canlı,108178,culture
+2026-03-04,TR,2,Batman iftar time,batman iftar vakti,106438,daily_life
+2026-03-04,TR,3,Iftar Hour,iftar saati,103808,daily_life
+2026-03-04,TR,4,Iran war,İran savaş,6500,security
+2026-03-04,TR,5,Adana iftar time,adana iftar vakti,98236,daily_life
+2026-03-04,IQ,1,the weather,الطقس,106038,daily_life
+2026-03-04,IQ,2,the weather,الطقس,91779,daily_life
+2026-03-04,IQ,3,Barcelona vs Atletico Madrid,مباراه برشلونه واتلتيكو مدريد,55246,sports
+2026-03-04,IQ,4,Iran war,حرب ايران,9500,security
+2026-03-04,IQ,5,the weather tomorrow,الطقس غدًا,51525,daily_life
+2026-03-04,EG,1,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,9542,sports
+2026-03-04,EG,2,Iran war,حرب ايران,7200,security
+2026-03-04,EG,3,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,5625,sports
+2026-03-04,EG,4,English Premier League standings,ترتيب الدوري الانجليزي,5278,sports
+2026-03-04,EG,5,English Premier League standings,ترتيب الدوري الانجليزي,4815,sports
+2026-03-04,SA,1,Iran war,حرب ايران,27400,security
+2026-03-04,SA,2,Al-Jawf,الجوف,17193,other
+2026-03-04,SA,3,Al-Jawf,الجوف,15213,other
+2026-03-04,SA,4,English Premier League standings,ترتيب الدوري الانجليزي,6642,sports
+2026-03-04,SA,5,English Premier League standings,ترتيب الدوري الانجليزي,6607,sports
+2026-03-04,AE,1,Iran war,آخر أخبار الحرب,5500,security
+2026-03-04,AE,2,Premier League,,5361,sports
+2026-03-04,AE,3,cole mcconchie,,5151,other
+2026-03-04,AE,4,Premier League,,5136,sports
+2026-03-04,AE,5,Premier League,,5076,sports
+2026-03-04,JO,1,Maghrib Adhan,اذان المغرب,11249,daily_life
+2026-03-04,JO,2,Maghrib Adhan,اذان المغرب,11010,daily_life
+2026-03-04,JO,3,Maghrib Adhan,اذان المغرب,10935,daily_life
+2026-03-04,JO,4,Iran Israel war,حرب ايران اسرائيل,5000,security
+2026-03-04,JO,5,Maghrib Adhan,اذان المغرب,10811,daily_life
+2026-03-04,YE,1,Barcelona,برشلونة,10038,sports
+2026-03-04,YE,2,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,5207,sports
+2026-03-04,YE,3,war Iran,حرب ايران,4000,security
+2026-03-04,YE,4,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,4869,sports
+2026-03-04,YE,5,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,4660,sports
+2026-03-04,SY,1,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,4897,sports
+2026-03-04,SY,2,Iran war,حرب ايران,5800,security
+2026-03-04,SY,3,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,4775,sports
+2026-03-04,SY,4,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,2204,sports
+2026-03-04,SY,5,Man City vs Nottingham Forest,مان سيتي ضد نوتينغهام فورست,2188,sports
+2026-03-04,IL,1,Iran war,מלחמה איראן,61600,security
+2026-03-04,IL,2,Bnei Sabti,בני סבטי,6917,other
+2026-03-04,IL,3,Bnei Sabti,בני סבטי,6490,other
+2026-03-04,IL,4,Kurds,כורדים,6165,other
+2026-03-04,IL,5,Caroline Leavitt,קרוליין לוויט,5667,other
+2026-03-04,PS,1,war Iran,حرب ايران,6800,security
+2026-03-04,PS,2,Al-Fajr,الفجر,5467,daily_life
+2026-03-04,PS,3,Al-Fajr,الفجر,5439,daily_life
+2026-03-04,PS,4,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,2240,sports
+2026-03-04,PS,5,Newcastle United vs Man United,نيوكاسل يونايتد ضد مان يونايتد,2227,sports
+2026-03-04,LB,1,war Lebanon,حرب لبنان,3200,security
+2026-03-04,LB,2,Armun,عرمون,561,other
+2026-03-04,LB,3,Armun,عرمون,536,other
+2026-03-04,LB,4,Aston Villa vs Chelsea,,235,sports
+2026-03-04,LB,5,Aston Villa vs Chelsea,,224,sports
+2026-03-04,CY,1,Middle East war,,3000,security
+2026-03-04,CY,2,wolves vs liverpool,,2275,sports
+2026-03-04,CY,3,wolves vs liverpool,,2274,sports
+2026-03-04,CY,4,wolves vs liverpool,,2186,sports
+2026-03-04,CY,5,wolves vs liverpool,,2122,sports
+2026-03-04,IR,1,—,—,0,other
+2026-03-04,IR,2,—,—,0,other
+2026-03-04,IR,3,—,—,0,other
+2026-03-04,IR,4,—,—,0,other
+2026-03-04,IR,5,—,—,0,other
